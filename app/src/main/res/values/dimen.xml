@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="two">2sp</dimen>
+    <dimen name="three">3sp</dimen>
+    <dimen name="four">4sp</dimen>
+    <dimen name="five">5sp</dimen>
+    <dimen name="eight">8sp</dimen>
+    <dimen name="ten">10sp</dimen>
+    <dimen name="text_size">12sp</dimen>
+    <dimen name="sub_title_size">14sp</dimen>
+    <dimen name="title_sixteen">16sp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="twenty_five">25sp</dimen>
+    <dimen name="header_text">30sp</dimen>
+    <dimen name="forty">40sp</dimen>
+    <dimen name="fifty">50sp</dimen>
+    <dimen name="sixty">60sp</dimen>
+    <dimen name="seventy">70sp</dimen>
+    <dimen name="eighty">80sp</dimen>
+    <dimen name="ninety">90sp</dimen>
+    <dimen name="hundred">100sp</dimen>
+</resources>

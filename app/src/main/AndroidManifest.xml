@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.maria.pastelhub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".application.ICatApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".lessons.TamilLkgUkgActivity"/>
+        <activity
+            android:name=".splash_screens.EnglishAnthemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screens.TamilAnthemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screens.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_PVtCBpH3jKHIDB" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity android:name=".star_collecting.activity.StarCollectingActivity" />
+        <activity android:name=".review.ReviewActivity" />
+        <activity android:name=".videos.playvideo.PlayVideo" />
+        <activity android:name=".videos.songs.Songs" />
+        <activity android:name=".videos.weblinks.WebLinks" />
+        <activity
+            android:name=".videos.livevideos.LiveVideo"
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".videos.livevideos.LiveVideo1" />
+        <activity
+            android:name=".videos.FullScreenVideoView"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.draganddrop.DragandDrop" />
+        <activity android:name=".activity.draganddrop.DragandDroplu" />
+        <activity android:name=".activity.draganddrop.DragandDropluTamil" />
+        <activity android:name=".activity.wordsearch.WordSearch" />
+        <activity android:name=".activity.choose.ChooseAnswerActivity" />
+        <activity android:name=".splash_screens.VideoActivity" />
+        <activity
+            android:name=".activity.maze.MazeActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".activity.colordrawing.MainActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity android:name=".activity.lineconnector.LineConnector" />
+        <activity android:name=".activity.match.MatchActivtiy" />
+        <activity android:name=".activity.match.LkgMatchActivtiy" />
+        <activity android:name=".activity.match.TamilLkgMatchActivtiy" />
+        <activity android:name=".activity.match.UkgMatchActivtiy" />
+        <activity android:name=".activity.BaseActivityExtends" />
+        <activity android:name=".lessons.LessonsActivity" />
+        <activity android:name=".lessons.TamilNumberChoose" />
+        <activity
+            android:name=".ebook.EBook"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".book_landing.BookLanding" />
+        <activity android:name=".emptystatus.EmptyStatus" />
+        <activity android:name=".emptystatus.EmptyView" />
+        <activity android:name=".profile.Profile" />
+        <activity android:name=".register.Registration" />
+        <activity android:name=".forgetpassword.ForgetPassword" />
+        <activity android:name=".login.Login" />
+        <activity
+            android:name=".splash_screens.JesusIntro"
+            android:theme="@style/LoginTheme" />
+        <activity android:name=".dashboard.Dashboard" />
+
+        <service android:name=".services.MusicService" />
+    </application>
+
+</manifest>

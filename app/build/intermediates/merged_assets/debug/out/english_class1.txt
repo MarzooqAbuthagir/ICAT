@@ -1,0 +1,79 @@
+LESSON_1_START
+DRAG_WORDS_START
+A##d##a##m@Joshua 1:9
+A##n##g##e##l@Joshua 1:9
+B##e##t##h##l##e##h##e##m@Joshua 1:9
+B##a##p##t##i##s##m@Joshua 1:9
+C##a##r##p##e##n##t##e##r## J##o##s##e##p##h@Joshua 1:9
+C##h##u##r##c##h@Joshua 1:9
+DRAG_WORDS_END
+LESSON_1_END
+LESSON_2_START
+DRAG_WORDS_START
+D##a##n##i##e##l@Joshua 1:9
+D##e##s##e##r##t@Joshua 1:9
+E##u##c##h##a##r##i##s##t@Joshua 1:9
+E##l##i##j##a##h@Joshua 1:9
+F##l##o##o##d@Joshua 1:9
+F##e##e##t@Joshua 1:9
+DRAG_WORDS_END
+LESSON_2_END
+LESSON_3_START
+DRAG_WORDS_START
+G##o##l##i##a##t##h@Joshua 1:9
+G##o##o##d## S##a##m##a##r##i##t##a##n@Joshua 1:9
+H##e##a##v##e##n@Joshua 1:9
+H##o##l##y## F##a##m##i##l##y@Joshua 1:9
+I##s##a##i##a##h@Joshua 1:9
+I##s##a##a##c@Joshua 1:9
+DRAG_WORDS_END
+LESSON_3_END
+LESSON_4_START
+DRAG_WORDS_START
+J##e##r##u##s##a##l##e##m@Joshua 1:9
+J##o##n##a##h@Joshua 1:9
+K##i##n##g@Joshua 1:9
+K##e##y##s@Joshua 1:9
+L##a##z##a##r##u##s@Joshua 1:9
+L##a##s##t## S##u##p##p##e##r@Joshua 1:9
+DRAG_WORDS_END
+LESSON_4_END
+LESSON_5_START
+DRAG_WORDS_START
+M##a##g##i@Joshua 1:9
+M##a##r##y## M##a##g##d##a##l##e##n##e@Joshua 1:9
+N##i##n##e##v##e##h@Joshua 1:9
+N##a##z##a##r##e##t##h@Joshua 1:9
+O##i##l@Joshua 1:9
+O##f##f##e##r##i##n##g@Joshua 1:9
+DRAG_WORDS_END
+LESSON_5_END
+LESSON_6_START
+DRAG_WORDS_START
+P##e##n##t##e##c##o##s##t@Joshua 1:9
+P##e##t##e##r@Joshua 1:9
+Q##u##e##e##n## E##s##t##h##e##r@Joshua 1:9
+Q##u##a##i##l@Joshua 1:9
+R##e##d## S##e##a@Joshua 1:9
+R##u##t##h@Joshua 1:9
+DRAG_WORDS_END
+LESSON_6_END
+LESSON_7_START
+DRAG_WORDS_START
+S##a##m##u##e##l@Joshua 1:9
+S##i##m##e##o##n@Joshua 1:9
+T##o##m##b@Joshua 1:9
+U##r##n@Joshua 1:9
+V##i##n##e##y##a##r##d@Joshua 1:9
+V##e##r##o##n##i##c##a@Joshua 1:9
+DRAG_WORDS_END
+LESSON_7_END
+LESSON_8_START
+DRAG_WORDS_START
+W##h##e##a##t@Joshua 1:9
+W##i##n##e@Joshua 1:9
+X##e##r##x##e##s@Joshua 1:9
+Y##a##h##w##e##h@Joshua 1:9
+Z##a##c##h##a##r##i##a##h@Joshua 1:9
+DRAG_WORDS_END
+LESSON_7_END

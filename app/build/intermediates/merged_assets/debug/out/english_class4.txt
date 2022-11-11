@@ -1,0 +1,231 @@
+LESSON_1_START
+MATCH_START
+King Saul##First King of Israel
+Saul##Paul
+St. Augustine##Monica
+Pope St. John Paul II##Pope of the Youth
+Reni George##Home for the children
+MATCH_END
+DRAG_WORDS_START
+Turn away## from## all## the evil## you are## doing.@Ezekiel 18:30.
+The angels## of God## rejoice over## one sinner## who## repents.@Luke 15:10.
+If we## confess## our sins## to God,## he will## forgive us## our sins## and## purify us## from## all our## wrongdoing.@1 John 1:9.
+DRAG_WORDS_END
+WORD_SEARCH_START
+I confess to Almighty God and to you, my brothers and sisters, that I have greatly sinned, in my thoughts and in my words, in what I have done and in what I have failed to do.##h,a,v,e,m,y,s,a,n,d,n,d,o,f,a,i,l,e,d,i,n,i,A,l,m,i,g,h,t,y,G,o,d,s,I,t,h,o,u,g,h,t,s,e,r,s,a,n,d,t,h,a,t,n,n,e,s,I,g,r,e,a,t,l,y,o,t,e,b,I,t,o,s,y,o,u,d,s,f,s,b,r,o,t,h,e,r,s,i,n,i,t,e,a,n,d,m,y,t,s,o,n,a,v,w,o,r,d,s,a,t,c,n,h,a,m,i,n,t,o,h,n,I,e,w,h,y,a,n,d,u,w,i,v,d,t,o,r,h,a,v,e,w##11
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Who was the tallest man in Israel? (1 Samuel 9:2)##Saul##Shem##Ham##Japheth##1
+Who is called a Seer? (1 Samuel 9:9)##King##Judge##Prophet##Israelites##3
+Who anointed Saul as the first king of Israel? (1 Samuel 10:1)##Isaiah##Samuel##Jeremiah##Ezekiel##3
+Why did the Lord choose Saul to be the king of Israel? (1 Samuel 9:16)##To rescue Israel from the Ammonites##To rescue Israel from the Amalekites##To rescue Israel from the Syrians##To rescue Israel from the Phillistines##4
+On whom king Saul was jealous? (1 Samuel 18:9)##Jonathan##David##Samuel##Goliath##2
+Who rejected Saul from being a king for his wicked deeds? (1 Samuel 15:10-11)##The Lord##Samuel##David##Jonathan##1
+Who was the ardent follower of Judaism? (Acts of the Apostles 22:1-3)##Andrew##Peter##Saul##James##3
+For what did Saul get permission from the High Priests? (Acts of the Apostles 9:1-2)##To arrest the Jews##To arrest the Christians##To arrest people of other countries##To arrest the Israelites##2
+Where was Saul going when he received God’s call? (Acts of the Apostles 9:3)##Tarsus##Samaria##Judah##Damascus##4
+Who was the believer appointed by God for Saul to regain his sight? (Acts of the Apostles 9:10-12)##Ananias##Cornelius##Philip##Barnabas##1
+CHOOSE_ANSWER_END
+LESSON_1_END
+LESSON_2_START
+MATCH_START
+David##King
+Peter##First Pope of the Holy Church
+St. Peter Damian##Cardinal
+Pope Francis##Pope of simplicity 
+Abraham Lincoln##American President
+MATCH_END
+DRAG_WORDS_START
+The Lord## takes## pleasure## in His## people;## He honours## the humble## with## victory.@Psalm 149:4.
+For all## who make## themselves## great## will be## humbled,## and all## who humble## themselves## will be## made## great.@Luke 18:14.
+Humble## yourselves,## then,## under## God’s## mighty hand,## so that## He will## lift you up## in His own## good time.@1 Peter 5:6.
+DRAG_WORDS_END
+WORD_SEARCH_START
+Glory to God in the highest, and on earth peace to people of good will. We praise you, we bless you, we adore you, we glorify you, we give you thanks for your great glory, Lord God, heavenly King, O God, Almighty Father.##y,o,u,r,G,o,d,K,i,n,g,e,o,n,g,o,o,d,w,i,l,l,f,l,A,l,m,i,g,h,t,y,w,e,o,p,y,u,g,l,o,r,i,f,y,u,d,o,l,o,G,l,o,r,y,i,n,o,n,e,n,y,O,p,r,a,i,s,e,y,a,p,e,p,e,a,c,e,t,y,o,u,t,o,v,f,L,b,w,e,s,s,g,W,e,G,a,y,o,l,e,a,e,k,l,y,e,o,e,o,r,e,a,d,h,n,o,o,h,d,h,u,d,s,r,o,g,a,r,u,t,e,f,o,r,s,t,r,i,h,y,w,e,w,g,i,v,e,h,e,h,t,G,o,d,o,g,r,e,a,t,F,a,t,h,e,r,t##12
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+To whom did God send Samuel to anoint the new king of Israel? (1 Samuel 16:1)##Saul##Jonathan##Goliath##Jesse##4
+“People look at the outward appearance, but I look at the heart.” Who said this? (1 Samuel 16:7)##The Lord##Samuel##Saul##Jonathan##1
+What was David doing when Samuel went to anoint him? (1 Samuel 16:11)##He was working in the fields##He was tending the cows##He was tending the sheep##He was praying in the temple##3
+“Go, and the Lord be with you”. Who said this to whom? (1 Samuel 17:37)##David to Saul##Saul to David##Saul to Jonathan##David to Jonathan##2
+What was the weapon David used to kill Goliath? (1 Samuel 17:50)##Bow and arrow##Spear and sword##A sling and a stone##Rod and staff##3
+How old was David when he became king of Israel? (2 Samuel 5:3-4)##Twenty##Thirty##Forty##Fifty##2
+Who was Simon Peter? (Luke 5:3)##Shepherd##Farmer##Priest##Fisherman##4
+“I tell you, Peter; you are a rock.” Who said this? (Matthew 16:18)##Jesus##Mary##Joseph##John##1
+When Jesus foretold about his suffering and death, who said “God forbid it, Lord! That must never happen to you”? (Matthew 16:22)##John##James##Peter##Andrew##3
+To whom did Jesus entrust the responsibility for leading the Church? (Matthew 16:18)##Simon Peter##James## John##Andrew##1
+CHOOSE_ANSWER_END
+LESSON_2_END
+LESSON_3_START
+MATCH_START
+King Solomon##Prayed for wisdom
+Jesus Christ##Filled with wisdom
+St. Louis de Montfort##Three Religious Congregations
+St. Callixtus I##Pope
+Kamaraj##Former Chief Minister of Tamil Nadu
+MATCH_END
+DRAG_WORDS_START
+The Fear## of the Lord## is the## beginning## of wisdom.@9:10.
+Jesus## grew## both## in body## and## in wisdom,## gaining favour## with God## and## people.@Luke 2:52.
+Are there## people## among you## who are## wise## and## understanding?## They are## to prove it## by their## good lives,## by their## good deeds## performed## with humility## and## wisdom.@James 3:13.
+DRAG_WORDS_END
+WORD_SEARCH_START
+The Word of the Lord.Thanks be to God.The Lord be with you.And with your spirit.The Gospel of the Lord.##s,p,i,r,i,t,e,b,J,L,o,r,d,b,e,s,u,e,d,t,o,G,o,d,i,o,s,r,t,h,e,d,T,a,y,u,o,w,i,t,h,h,r,s,s,L,y,o,u,r,e,P,k,C,T,h,e,b,e,W,d,n,h,e,f,o,h,L,o,r,a,r,h,o,f,t,o,r,o,h,i,t,t,o,i,r,d,L,T,s,y,o,u,w,d,T,h,e,t,A,n,d,G,o,s,p,e,l##9
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Who were the parents of King Solomon? (2 Samuel 12:24)##Abraham and Sarah##David and Bathsheba##Issac and Rebecca##Jacob and Leah##2
+“Do what the Lord orders you to do.” Who said this to whom? (1 Kings 2:1-3)##David to Jonathan##David to Saul##Solomon to David##David to Solomon##4
+What favour did Solomon ask from God? (1 Kings 3:9)##Wisdom##Knowledge##Love##Forgiveness##1
+What are the other blessings did God give Solomon along with wisdom? (1 Kings 3:13)#Love and kindness##Knowledge and power##Wealth and honour##Stregnth and power##3
+What for the two women came to Solomon? (1 Kings 3:16-22)##House##Child##Justice##Wealth##2
+By seeing what the people of Israel were filled with deep respect for king Solomon? (1 Kings 3:28)##His ruling power##His strength##His just judgements##His wealth##3
+With whom was boy Jesus sitting, listening and asking questions? (Luke 2:46)##Jewish teachers##Disciples##People##Priests##1
+Whom did Jesus heal on the Sabbath? (Mark 3:2-5)##A blind man##A physically handicapped man##A man with paralysed hand##A man with leprosy##3
+Who made the plans to kill Jesus? (Matthew 12:14)##Scribes##Preachers##Sadducees##Pharisees##4
+“Pay the Emperor what belongs to the Emperor, and pay God what belongs to God.” Who gave this wise answer? (Luke 20:25)##Jesus##John##Peter##Jacob##1
+CHOOSE_ANSWER_END
+LESSON_3_END
+LESSON_4_START
+MATCH_START
+Queen Esther##King Ahasuerus
+Jesus Christ##Healing on the Sabbath
+St. Joan of Arc##Heroine of France
+Pope St. John XXIII##Second Vatican Council
+Hanifa Zara##Swachh ambassador
+MATCH_END
+DRAG_WORDS_START
+Be determined## and## confident.## Do not be## afraid## of them.## Your God,## the Lord## himself,## will be## with you.@Deuteronomy 31:6.
+Courage!## It is I.## Don’t be## afraid!.@Matthew 14:27
+Be alert,## stand## firm## in the faith,## be brave,## be strong.@1 Corinthians 16:13.
+DRAG_WORDS_END
+WORD_SEARCH_START
+I believe in God, the Father Almighty, creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary.##H,w,A,M,a,r,y,o,f,J,o,a,l,o,f,o,n,l,y,e,l,s,m,n,h,t,t,h,e,s,y,e,i,e,t,n,L,n,i,u,S,v,g,v,r,r,o,s,n,s,p,e,h,a,a,o,r,o,t,C,i,i,t,e,e,b,d,h,h,h,r,l,y,h,S,o,n,w,e,r,i,e,c,r,e,a,t,o,r,i,t,b,V,i,r,g,i,n,I,s,t,h,e,F,a,t,h,e,r,t,c,o,n,c,e,i,v,e,d,r,i,n,h,i,s,s,y,a,n,d,a,n,d,G,o,d,b,o,u,r##10
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Which king was angry with queen Vashti for she refused to appear in front of his guests? (Esther 1:10-12)##Saul##David##Solomon##Xerxes##4
+Who plotted to destroy the Jews? (Esther 3:1-6)##Xerxes##Haman##Assyrian##Tobias##2
+To whom did Mordecai request to speak to the king in order to save the Jews? (Esther 4)##Queen Ashtyn##Queen Vashti##Queen Esther##Queen Bathsheba##3
+What did queen Esther have to approach king Xerxes in order to save the Israelites from the plot of Haman? (Esther 5:1-4)##Courage##Humility##Kindness##Patience##1
+For what did Queen Esther invite King Xerxes and Haman? (Esther 5:4)##Breakfast##Lunch##Dinner##Banquet##4
+Who were saved by queen Esther’s courageous act? (Esther 6)##Indians##The Jews##Canaanites##Amorites##2
+What happened to Haman who plotted to destroy the Jews? (Esther 7:10)##He was hanged.##He was thrown away.##He was cut into pieces##He was burned to death##1
+For how many years was the crippled woman suffer from evil spirit? (Luke 13:11)##Ten years##Twelves years##Fifteen years##Eighteen years##4
+On which day did Jesus heal the crippled woman? (Luke 13:10)##Passover##Sabbath##Feast##Silence##2
+CHOOSE_ANSWER_END
+LESSON_4_END
+LESSON_5_START
+MATCH_START
+King Hezekiah##Fifteen years 
+Jesus Christ##Blind Bartimaeus
+St. Peregrine Laziosi##Patron Saint of Cancer Patients
+Venerable Pius XII##Pope
+Paraneet##Witness to Jesus
+MATCH_END
+DRAG_WORDS_START
+When## they## call to me,## I will## answer them;## when## they are## in trouble, I will## be with them.@Psalm 91:15.
+If you## believe,## you will## receive## whatever## you## ask for## in prayer.@Matthew 21:22.
+He hears us## whenever## we ask him;## and since we know## this is true,## we know also## that## he gives us## what we ask## from him.@1 John 5:15.
+DRAG_WORDS_END
+WORD_SEARCH_START
+Blessed be God for ever. May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good, and the good of all his Holy Church.##H,o,l,y,h,a,n,d,s,e,a,t,C,h,u,r,c,h,e,c,M,a,y,G,o,d,p,o,b,i,g,o,o,d,o,f,r,e,d,f,t,h,e,t,h,e,a,m,e,i,s ,r,o,u,r,e,i,a,s,r,t,e,L,o,r,d,s,n,s,c,p,v,r,r,l,r,e,e,e,a,e,e,u,o,l,o,f,h,l,s,c,r,o,f,a,f,o,t,B,d,c,o,y,w,g,l,o,r,y,d,a,f,g,o,o,d,a,n,d,n,h,i,s,t,h,e,h,i,s,a##10
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Who was King Hezekiah’s father? (2 Kings 18:1)##David##Ahaz##Saul##Solomon##2
+How did King Hezekiah live before the Lord? (2 Kings 18:3)##With honesty##With truth##With fear##With kindness##1
+Who was the Assyrian King who attacked Jerusalem during the reign of King Hezekiah? (2 Kings 18:13)##Shalmaneser##Eliakim##Shebnah##Sennacherib##4
+To whom did King Hezekiah approach to know God’s will? (2 Kings 19:2)##Prophet Samuel##Prophet Isaiah##Prophet Jeremiah##Prophet Ezekiel##2
+“The Lord tells you that you are to put everything in order, because you will not recover. Get ready to die.” Why did God tell this to Hezekiah? (2 Kings 20:1)##Hezekiah did not keep the commandments of the Lord.##Hezekiah lived a wicked life.##Hezekiah did not believe God’s word.##Hezekiah became ill and was about to die.##4
+How many years did God extend King Hezekiah’s lifespan after hearing his prayer? (2 Kings 20:6)##Ten##Twelve##Fifteen##Twenty##3
+“Ask, and you will receive.” Who said this? (Matthew 7:7)##Jesus##Peter##John##Jacob##1
+To which city did Jesus and His disciples arrive? (Mark 10:46)##Nazareth##Galilee##Jericho##Bethany##3
+Who was the blind poor man who was begging Jesus for healing? (Mark 10:46)##Bartimaeus##Matthew##Mark##Luke##1
+Why did Jesus give sight to the blind Bartimaeus? (Mark 10:52)##Seeing his love##Seeing his happiness##Seeing his sorrow##Seeing his faith##4
+CHOOSE_ANSWER_END
+LESSON_5_END
+LESSON_6_START
+MATCH_START
+King Josiah##Passover Festival 
+Jesus Christ##Commandment of love
+St. Benedict##Rules of Religious Life
+St. Gregory the great##Pope
+Mr. Traffic Ramasamy##Public interest lawsuit
+MATCH_END
+DRAG_WORDS_START
+Love## the Lord## your God## with## all your## heart,## with## all your## soul,## and## with## all your## strength.@Deuteronomy 6:5
+Love## your## neighbour## as you## love## yourself.@Matthew 22:39.
+If you## love me,## you will## obey## my commandments.@John 14:15.
+DRAG_WORDS_END
+WORD_SEARCH_START
+Holy, Holy, Holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the name of the Lord. Hosanna in the highest.##H,o,s,a,n,n,a,t,h,e,h,i,g,h,e,s,t,L,o,y,t,h,e,f,u,l,l,o,h,l,c,o,m,e,s,r,e,r,w,o,e,H,o,l,y,u,m,d,a,H,h,a,o ,h,i,o,a,d,r,n,t,n,f,t,n,y,n,n,e,i,s,n,o,r,e,h,e,a,e,d,t,a,f,a,g,l,o,r,y,e,s,s,o,e,H,o,l,y,t,s,o,o,L,o,r,d,t,h,e,s,h,H,n,H,e,a,v,e,n,e,i,s,i,n,G,o,d,r,l,l,h,i,g,h,e,s,t,o,f,B##10
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+How old was Josiah when he became the king? (2 Kings 22:1)##Eight year##Ten year##Fifteen years##Twenty years##1
+Who was the priest who found the book of the Law in the house of the Lord? (2 Kings 22:8)##Aaron##Eli##Hilkiah##Eleazar##3
+What did king Josiah do when he heard the words from the book of the Law? (2 Kings 22:11)##He tore his clothes.##He felt sad.##He cried aloud.##Hehe prayed to God##1
+What did the king Josiah make with the Lord? (2 Kings 23:3)##Agreement##Correspondence##Good will##Covenant##4
+What did King Josiah destroy completely? (2 Kings 23)##Laws concerning Skin diseases##Worship of other gods##Laws concerning holiness and justice##Helping the needy##2
+What festival did King Josiah instruct the people to celebrate as per the book of the Law? (2 Kings 23:21)##Unleavened Bread##First Fruits##Passover##Atonement##3
+“Do not think that I have come to do away with the Law of Moses and the teachings of the Prophets. I have come to make their teachings come true.” Who said this? (Matthew 5:17)##Jesus##Peter##John##Matthew##1
+“What good thing must I do to receive eternal life?” Who asked this to Jesus? (Matthew 19:16)##The rich old man ##The rich old woman##The rich young man##The rich disciple##3
+What did Jesus ask the rich young man do, to receive eternal life? (Matthew 19:17)##To keep the statutes ##To keep the commandments##To keep the rules##To keep the laws##2
+What was the new commandment given by Jesus? (John 13:34)##Accept one another##Be happy with one another##Forgive one another##Love one another##4
+CHOOSE_ANSWER_END
+LESSON_6_END
+LESSON_7_START
+MATCH_START
+King Asa##Azariah
+Jesus Christ##Do not worry
+St. Mary Mazzarello##Association of the daughters of Mary Immaculate
+St. Sixtus II##Pope
+Brother Bakht Singh##Evangelical Service
+MATCH_END
+DRAG_WORDS_START
+Seek## the Lord## and## his strength,## seek## his presence## continually.@1 Chronicles 16:11.
+Strive## first## for## the kingdom## of God## and His## righteousness.@Matthew 6:33.
+Come## near## to God,## and## he will## come## near## to you.@James 4:8.
+DRAG_WORDS_END
+WORD_SEARCH_START
+Lamb of God, you take away the sins of the world, have mercy on us. Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed.##e,e,n,t,e,r,w,o,r,d,h,e,t,h,e,s,i,n,s,e,t,d,m,e,r,c,y,h,s,r,n,e,G,o,d,s,a,y,u,y,o,l,L,o,r,d,o,f,h,a,t,a,w,o,r,l,d,m,a,w,y,e,b,u,t,r,o,a,v,a,m,h,l,l,s,e,n,f,e,e,u,e,u,l,h,d,l,o,y,k,o,t,o,a,o,n,y,n,m,a,y,a,s,h,u,u,y,o,u,t,o,h,I,s,l,L,a,m,b,e,n,t,b,e,d,r,o,o,f,h,a,n,d,w,o,r,t,h,y,t,##10
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Under the rule of which king there was peace in Judah? (2 Chronicles 14:2-5)##King Ahaz##King Hezekiah##King Asa##King Rehoboam##3
+What did King Asa build when there was peace all over Judah? (2 Chronicles 14:6)##Castles##Fortified cities##Citadels##Palace##2
+What was the name of the Ethiopian who invaded Judah? (2 Chronicles 14:9)##Goliath##Shishak##Sennacherib##Zerah##4
+How many warriors were there in King Asa’s troop? (2 Chronicles 14:8)##2,80,000##2,20,000##2,40,000##2,60,000##1
+What did King Asa do, to defeat the Ethiopian army? (2 Chronicles 14:11)##He cried to the Lord.##He appealed to the Lord.##He prayed to the Lord.##He surrendered to the Lord.##3
+Who prophesied God’s word to King Asa? (2 Chronicles 15:1)##Hanani##Azariah##Elisa##Manasseh##2
+To which place did King Asa dedicate everything he collected? (2 Chronicles 15:18)##To the Church##To the temple##To the market##To the hospital##2
+“Do not start worrying. Where will my food come from? Or my drink? Or my clothes?” Who said this? (Matthew 6:31)##Jesus##Peter##John##James##1
+Who knows, Jesus said that you will need all these things? (Matthew 6:32)##Your Father in heaven##The Holy Spirit##The Prophet##The Priest##1
+What does Jesus suggest to leave behind in order to seek God? (Matthew 19:29)##Brothers and sisters##Father and mother##Children and fields##All of the above##4
+CHOOSE_ANSWER_END
+LESSON_7_END
+LESSON_8_START
+MATCH_START
+King Jehoshaphat##Judges
+Jesus Christ##Parable of the workers in the Vineyard
+St. Martin De Porres##Patron of Social Justice
+Pope Leo XIII##“Rerum Novarum” Encyclical
+Rajaram Mohan Roy##Social Reformer
+MATCH_END
+DRAG_WORDS_START
+Do## what is## just ##right,## for soon## I will## save you.@Isaiah 56:1.
+Descendants## of Jacob,## trust## in your God## and## return## to him.## Be loyal## and## just,and wait## patiently## for your God## to act.@Hosea 12:6.
+Blessed## are those## who hunger## and## thirst for## righteousness, for they## will be## filled.@Matthew 5:6.
+DRAG_WORDS_END
+WORD_SEARCH_START
+The Lord be with you.And with your spirit.May Almighty God bless you, the Father, and the Son, and the Holy Spirit. Amen.Go forth, the Mass is ended.Thanks be to God.##T,h,a,n,k,s,L,o,r,d,n,A,l,m,i,g,h,t,y,r,l,b,e,G,o,f,o,r,t,h,H,o,l,y,S,p,i,r,i,t,o,y,o,u,r,b,l,e,s,s.d,a,w,n,F,a,t,h,e,r,e,e,i,e,e,e,s,a,b,e,d,e,t,m,h,h,p,S,o,n,n,h,h,A,t,t,i,o,y,e,e,T,y,o,u,n,r,r,h,h,w,i,s,G,o,d,i,u,t,t,a,n,d,e,d,t,t,o,i,d,G,o,d,h,n,t,o,y,w,n,M,a,y,t,A,M,a,s,s,a##10
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Who became the king of Judah after King Asa? (1 Kings 22:41)##Ahaz##Ahab##Hezekiah##Jehoshaphat##4
+Which King asked King Jehoshaphat to join him for war against Gilead? (2 Chronicles 18:3)##Rehoboam##Ahab##Abiah##Uzziah##2
+Which prophet reprimanded king Jehoshaphat? (2 Chronicles 19:2)##Jehu##Samuel##Micaiah##Azariah##1
+Who did King Jehoshaphat appoint in the land of the fortified cities? (2 Chronicles 19:5)##Leaders##Prophets##Judges##Officers##3
+What did King Jehoshaphat instruct the people to do when the armies of Moab and Ammon invaded Judah? (2 Chronicles 20:3)##To pray##To fast##To fight##To run away##2
+What did the Lord give King Jehoshaphat on every side? (2 Chronicles 20:30)##Mercy##Justice##Peace##Security##4
+From where did Jesus go to Judea on the other side of the River Jordan? (Matthew 19:1)##Capernaum##Caesarea Philippi##Galilee##Samaria##3
+How much salary did the owner of the vineyard agree to pay his workers? (Matthew 20:2)##A silver coin##Two silver coin##Three silver coin##Four silver coin##1
+At what time did the owner of the vineyard hire the last batch of workers? (Matthew 20:6)##2 o’ clock##3 o’ clock##4 o’ clock##5 o’ clock##4
+“Take your pay and go home. I want to give this man who was hired last as much as I have given you.” Who said this to whom? (Matthew 20:14)##The Landowner to the worker who was hired early in the morning##The Landowner to the worker who was hired 9 o’ clock##The Landowner to the worker who was hired 3 o’ clock first##The Landowner to the worker who was hired 5 o’ clock##1
+CHOOSE_ANSWER_END
+LESSON_8_END

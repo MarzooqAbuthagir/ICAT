@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/tv1"
+    android:layout_margin="10dp"
+    android:minHeight="100sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp"
+    android:text="ஆண்டவராகிய கடவுள்"
+    android:layout_alignParentLeft="true"
+    android:textSize="@dimen/text_size"
+    android:textStyle="bold"
+    android:background="@drawable/match_border5"
+    android:textColor="@color/black"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

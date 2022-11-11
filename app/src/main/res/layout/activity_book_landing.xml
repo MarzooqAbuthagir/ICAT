@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".book_landing.BookLanding">
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_texture">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <include layout="@layout/header_booklanding" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_text_size"
+                android:layout_marginEnd="@dimen/button_text_size"
+                android:layout_marginTop="@dimen/ten"
+                android:layout_marginBottom="5sp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+                
+                <LinearLayout
+                    android:id="@+id/layout_e_book"
+                    android:layout_width="0sp"
+                    android:layout_height="@dimen/hundred"
+                    android:background="@drawable/e_book_card"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/five"
+                    android:layout_marginRight="@dimen/five"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/forty"
+                        android:layout_height="@dimen/forty"
+                        android:src="@drawable/e_book"
+                        android:contentDescription="@string/book_image" />
+
+                    <TextView
+                        android:id="@+id/tvEBook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ten"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="@dimen/ten"
+                        android:textStyle="bold"
+                        android:lineSpacingExtra="5sp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/e_book_tamil" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_activity"
+                    android:layout_width="0sp"
+                    android:layout_height="@dimen/hundred"
+                    android:background="@drawable/activity_card"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/forty"
+                        android:layout_height="@dimen/forty"
+                        android:src="@drawable/activity_icon"
+                        android:contentDescription="@string/book_image" />
+
+                    <TextView
+                        android:id="@+id/tvActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ten"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/ten"
+                        android:lineSpacingExtra="5sp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/activity_tamil" />
+
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/button_text_size"
+                android:layout_marginEnd="@dimen/button_text_size"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:id="@+id/layout_video"
+                    android:layout_width="0sp"
+                    android:layout_height="@dimen/hundred"
+                    android:background="@drawable/video_card"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/five"
+                    android:layout_marginRight="@dimen/five"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/forty"
+                        android:layout_height="@dimen/forty"
+                        android:src="@drawable/video_icon"
+                        android:contentDescription="@string/book_image" />
+
+                    <TextView
+                        android:id="@+id/tvVideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ten"
+                        android:textColor="@color/white"
+                        android:lineSpacingExtra="5sp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/videos_tamil"
+                        android:layout_marginTop="@dimen/ten" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_song"
+                    android:layout_width="0sp"
+                    android:layout_height="@dimen/hundred"
+                    android:background="@drawable/song_card"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/forty"
+                        android:layout_height="@dimen/forty"
+                        android:src="@drawable/songs_icon"
+                        android:contentDescription="@string/book_image" />
+
+                    <TextView
+                        android:id="@+id/tvSongs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ten"
+                        android:textColor="@color/white"
+                        android:lineSpacingExtra="5sp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/songs_tamil"
+                        android:layout_marginTop="@dimen/ten" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_web_link"
+                    android:layout_width="0sp"
+                    android:layout_height="@dimen/hundred"
+                    android:background="@drawable/web_link_card"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/five"
+                    android:layout_marginLeft="@dimen/five"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/forty"
+                        android:layout_height="@dimen/forty"
+                        android:src="@drawable/web_link_icon"
+                        android:contentDescription="@string/book_image" />
+
+                    <TextView
+                        android:id="@+id/tvWebLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/ten"
+                        android:textColor="@color/white"
+                        android:lineSpacingExtra="5sp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/web_links_tamil"
+                        android:layout_marginTop="@dimen/ten" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/button_text_size"
+                android:layout_marginLeft="@dimen/button_text_size"
+                android:layout_marginTop="@dimen/button_text_size"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/preface"
+                    android:layout_width="@dimen/ninety"
+                    android:layout_height="wrap_content"
+                    android:text="@string/book_details_tamil"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/user_review"
+                    android:layout_width="@dimen/hundred"
+                    android:layout_height="wrap_content"
+                    android:text="@string/review_tamil"
+                    android:layout_marginLeft="@dimen/button_text_size"
+                    android:layout_marginStart="@dimen/button_text_size"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/button_text_size"
+                android:layout_marginLeft="@dimen/button_text_size"
+                android:layout_marginTop="@dimen/five"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/toggle_details"
+                    android:layout_width="@dimen/sixty"
+                    android:layout_height="@dimen/three"
+                    app:cardBackgroundColor="@color/sub_text"
+                    app:cardCornerRadius="@dimen/three" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/toggle_details1"
+                    android:layout_width="@dimen/sixty"
+                    android:layout_height="@dimen/three"
+                    app:cardBackgroundColor="@color/sub_text"
+                    android:layout_marginLeft="@dimen/fifty"
+                    android:layout_marginStart="@dimen/fifty"
+                    app:cardCornerRadius="@dimen/three" />
+
+            </LinearLayout>
+
+            
+
+            <LinearLayout
+                android:id="@+id/preface_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_text_size"
+                android:layout_marginLeft="@dimen/button_text_size"
+                android:layout_marginRight="@dimen/button_text_size"
+                android:layout_marginBottom="@dimen/button_text_size"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/noolvivaram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/review_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_text_size"
+                android:layout_marginLeft="@dimen/button_text_size"
+                android:layout_marginRight="@dimen/button_text_size"
+                android:layout_marginBottom="@dimen/button_text_size"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv_review"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/forty"
+                        app:cardCornerRadius="@dimen/ten"
+                        app:cardBackgroundColor="@color/review_button_color">
+
+                        <LinearLayout
+                            android:id="@+id/write_my_review"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0sp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/write_your_review"
+                                android:textColor="@color/review_text_color"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/title_size"
+                                android:layout_marginStart="@dimen/title_size" />
+
+                            <LinearLayout
+                                android:layout_width="0sp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="right|center_vertical"
+                                android:layout_marginEnd="@dimen/button_text_size"
+                                android:layout_marginRight="@dimen/button_text_size"
+                                android:layout_weight="1"
+                                tools:ignore="RtlHardcoded">
+
+                                <ImageView
+                                    android:layout_width="@dimen/button_text_size"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/arrow_right"
+                                    android:contentDescription="@string/right_arrow" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/review_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/button_text_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sub_title_size"
+                        android:layout_marginTop="@dimen/text_size"
+                        android:visibility="gone"
+                        android:textColor="@color/colorPrimary"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/see_all_reviews" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

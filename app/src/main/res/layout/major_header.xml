@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fifty">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/text_size"
+        android:layout_marginEnd="@dimen/text_size"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/back_major_header"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:src="@drawable/back"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/back_button" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/major_title"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:text="@string/title"
+            android:layout_weight="2"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/sound_icon"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:src="@drawable/sound_on"
+                android:layout_gravity="right"
+                android:contentDescription="@string/back_button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

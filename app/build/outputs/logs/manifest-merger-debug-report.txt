@@ -1,0 +1,595 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\bd52565c14632bceba4beccec1014745\transformed\databinding-adapters-4.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\e66aa9d3caceece8c15effdac86dea7e\transformed\databinding-runtime-4.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\3c91b3d61d23b274fd97741fa50865f8\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\418b68a4bbccded17ff0654aec0d12e0\transformed\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Marzooq\.gradle\caches\transforms-3\9adffd3802ab04e4a2aaf3c5711051e9\transformed\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2bda41a667fb7ed42f1d81e3ab267d85\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\28efb1e90a700a0b613c405584bacb4d\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\99d424e79e30e80b1f94ac21f4e0dff2\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\9b02c1b5b176ea4b2ee8c5617c7cbe7a\transformed\jetified-butterknife-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7cc838bf8242b55ec634e86f862012\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha04] C:\Users\Marzooq\.gradle\caches\transforms-3\d8d823c1cdd9f39654dd958b93085f8c\transformed\recyclerview-1.2.0-alpha04\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\08b0ad0176303e086664a409b738ba86\transformed\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\Marzooq\.gradle\caches\transforms-3\3ee64c4bd1037f3e65f157f82b972c5c\transformed\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\85d8e1ce50d61454e40a917d609e41b7\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\6e7fae76891715e2025ff2b7e1598322\transformed\jetified-glide-4.13.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5bf2339c275ada30f53304c2ca5a8cc9\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\b3af112e5e50aac4de007818d03e4e68\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5b1a744b63c14de326a8ea42d1225127\transformed\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\72b4d7e060d1c5aad70a6a3ce6836f71\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\0f416889d652a276dedf19d267530ae8\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\ab11f38537eb73a2a66879c841e49dab\transformed\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e99d44b1a07c8b180a05157ba2da0d1f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\06ec90e7d10b6153b12cb4fb520017eb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f2beb525451bcad4f8d311656d72f265\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5e25f199290b3634156a1287cdbd17fd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\40a3f719309318b3466d90f675dc2b67\transformed\drawerlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\68b254f5237fd71ad3e315c04706ad4f\transformed\jetified-play-services-auth-api-phone-17.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bbf39319a46583fd8f6ab2b4e4bb25db\transformed\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bd3b8d522bd6702689da7f234e91a618\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\1ca9c0875e7154cc21f5a61e6a456e9b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.1] C:\Users\Marzooq\.gradle\caches\transforms-3\087bd90855594d6a160c87012299932b\transformed\fragment-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f8142927f483d8898e1b13022f547197\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2266ca0d768d4ed697a1694b9195ed07\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\9c45952337903bac8f68125b295a8d03\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\68110ec6d4ce8f780af95f2c48f4e773\transformed\navigation-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\fa6ef2a57d2c366d00fcd0616ce5ecc0\transformed\navigation-common-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\9d46ae6a98ad9b5848a48dff22daf875\transformed\jetified-activity-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\80c079421f3e4f845443370547a75053\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\92942d5a9111456300a374d05eae5436\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e6f062ce63c0623eb30f508fc0eb2a8f\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\a0b46e405b7b98a9327e51cf16c939ca\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\50791cf2eb76c28227ffc1bcb71be48d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e2d37912a391e57935e59b150ca3256c\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e1407332c5c34467c09e0f34fea26f41\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d1f85bb4260fb91d7dec9a87fb32e04e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5ec79184134b42ef09199d156cc4881e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2ed98c20b198a014e9454873ec5f11e4\transformed\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\31984e0c6e713c124eed1b9ba9177826\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d0093a51a736e29d7e989b543a62b9aa\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2f30223d140121984059e0b1334968b6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\b7d1dd87abca64d40dd1a19a8cd7a321\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f339e472becf6c581b287a5db9fc80c7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c1a3230438fee2b8c56785c424a21561\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\8ce2433e21d4f0c98601521df76cbef2\transformed\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d891325332e0c22e00bd9bbb5fd0c2da\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2a76e38a051f2aa0d9646876f6d3ea22\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+	package
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:1-104:12
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:9:5-67
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:9:22-78
+queries
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:11:5-15:15
+intent#action:name:com.google.android.youtube.api.service.START
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:12:9-14:18
+action#com.google.android.youtube.api.service.START
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:13:13-83
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:13:21-80
+application
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:17:5-102:19
+MERGED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Marzooq\.gradle\caches\transforms-3\9adffd3802ab04e4a2aaf3c5711051e9\transformed\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Marzooq\.gradle\caches\transforms-3\9adffd3802ab04e4a2aaf3c5711051e9\transformed\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\28efb1e90a700a0b613c405584bacb4d\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\28efb1e90a700a0b613c405584bacb4d\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\99d424e79e30e80b1f94ac21f4e0dff2\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\99d424e79e30e80b1f94ac21f4e0dff2\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\6e7fae76891715e2025ff2b7e1598322\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\6e7fae76891715e2025ff2b7e1598322\transformed\jetified-glide-4.13.0\AndroidManifest.xml:10:5-20
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:11:5-30:19
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:11:5-30:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5bf2339c275ada30f53304c2ca5a8cc9\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5bf2339c275ada30f53304c2ca5a8cc9\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bd3b8d522bd6702689da7f234e91a618\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bd3b8d522bd6702689da7f234e91a618\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\1ca9c0875e7154cc21f5a61e6a456e9b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\1ca9c0875e7154cc21f5a61e6a456e9b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e6f062ce63c0623eb30f508fc0eb2a8f\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e6f062ce63c0623eb30f508fc0eb2a8f\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e1407332c5c34467c09e0f34fea26f41\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e1407332c5c34467c09e0f34fea26f41\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:23:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:21:9-43
+	android:fullBackupContent
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:20:9-41
+	tools:targetApi
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:28:9-28
+	android:largeHeap
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:24:9-33
+	android:icon
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:26:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:18:9-52
+activity#com.maria.pastelhub.lessons.TamilLkgUkgActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:29:9-30:58
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:30:13-56
+activity#com.maria.pastelhub.splash_screens.EnglishAnthemActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:32:13-65
+activity#com.maria.pastelhub.splash_screens.TamilAnthemActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:35:13-63
+activity#com.maria.pastelhub.splash_screens.MainActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:38:13-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:43:27-74
+meta-data#com.razorpay.ApiKey
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:47:9-49:55
+	android:value
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:48:13-47
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:50:9-52:36
+	android:value
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:52:13-33
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:51:13-69
+activity#com.maria.pastelhub.star_collecting.activity.StarCollectingActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:54:9-85
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:54:19-82
+activity#com.maria.pastelhub.review.ReviewActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:55:9-59
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:55:19-56
+activity#com.maria.pastelhub.videos.playvideo.PlayVideo
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:56:9-64
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:56:19-61
+activity#com.maria.pastelhub.videos.songs.Songs
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:57:9-56
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:57:19-53
+activity#com.maria.pastelhub.videos.weblinks.WebLinks
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:58:9-62
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:58:19-59
+activity#com.maria.pastelhub.videos.livevideos.LiveVideo
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:59:9-61:58
+	android:screenOrientation
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:61:13-55
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:60:13-56
+activity#com.maria.pastelhub.videos.livevideos.LiveVideo1
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:62:9-66
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:62:19-63
+activity#com.maria.pastelhub.videos.FullScreenVideoView
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:63:9-65:53
+	android:screenOrientation
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:65:13-50
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:64:13-55
+activity#com.maria.pastelhub.activity.draganddrop.DragandDrop
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:66:9-70
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:66:19-67
+activity#com.maria.pastelhub.activity.draganddrop.DragandDroplu
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:67:9-72
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:67:19-69
+activity#com.maria.pastelhub.activity.draganddrop.DragandDropluTamil
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:68:19-74
+activity#com.maria.pastelhub.activity.wordsearch.WordSearch
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:69:9-68
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:69:19-65
+activity#com.maria.pastelhub.activity.choose.ChooseAnswerActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:70:9-74
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:70:19-71
+activity#com.maria.pastelhub.splash_screens.VideoActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:71:19-63
+activity#com.maria.pastelhub.activity.maze.MazeActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:72:9-74:58
+	android:screenOrientation
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:74:13-55
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:73:13-55
+activity#com.maria.pastelhub.activity.colordrawing.MainActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:75:9-77:58
+	android:screenOrientation
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:77:13-55
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:76:13-63
+activity#com.maria.pastelhub.activity.lineconnector.LineConnector
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:78:9-74
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:78:19-71
+activity#com.maria.pastelhub.activity.match.MatchActivtiy
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:79:9-66
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:79:19-63
+activity#com.maria.pastelhub.activity.match.LkgMatchActivtiy
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:80:9-69
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:80:19-66
+activity#com.maria.pastelhub.activity.match.TamilLkgMatchActivtiy
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:81:9-74
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:81:19-71
+activity#com.maria.pastelhub.activity.match.UkgMatchActivtiy
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:82:9-69
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:82:19-66
+activity#com.maria.pastelhub.activity.BaseActivityExtends
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:83:9-66
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:83:19-63
+activity#com.maria.pastelhub.lessons.LessonsActivity
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:84:9-61
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:84:19-58
+activity#com.maria.pastelhub.lessons.TamilNumberChoose
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:85:9-63
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:85:19-60
+activity#com.maria.pastelhub.ebook.EBook
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:86:9-88:51
+	android:hardwareAccelerated
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:88:13-48
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:87:13-40
+activity#com.maria.pastelhub.book_landing.BookLanding
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:89:9-62
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:89:19-59
+activity#com.maria.pastelhub.emptystatus.EmptyStatus
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:90:9-61
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:90:19-58
+activity#com.maria.pastelhub.emptystatus.EmptyView
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:91:9-59
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:91:19-56
+activity#com.maria.pastelhub.profile.Profile
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:92:9-53
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:92:19-50
+activity#com.maria.pastelhub.register.Registration
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:93:9-59
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:93:19-56
+activity#com.maria.pastelhub.forgetpassword.ForgetPassword
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:94:9-67
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:94:19-64
+activity#com.maria.pastelhub.login.Login
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:95:9-49
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:95:19-46
+activity#com.maria.pastelhub.splash_screens.JesusIntro
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:96:9-98:49
+	android:theme
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:98:13-46
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:97:13-54
+activity#com.maria.pastelhub.dashboard.Dashboard
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:99:9-57
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:99:19-54
+service#com.maria.pastelhub.services.MusicService
+ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:101:9-58
+	android:name
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:101:18-55
+uses-sdk
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\bd52565c14632bceba4beccec1014745\transformed\databinding-adapters-4.1.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\bd52565c14632bceba4beccec1014745\transformed\databinding-adapters-4.1.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\e66aa9d3caceece8c15effdac86dea7e\transformed\databinding-runtime-4.1.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\e66aa9d3caceece8c15effdac86dea7e\transformed\databinding-runtime-4.1.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\3c91b3d61d23b274fd97741fa50865f8\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\3c91b3d61d23b274fd97741fa50865f8\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\418b68a4bbccded17ff0654aec0d12e0\transformed\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\418b68a4bbccded17ff0654aec0d12e0\transformed\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Marzooq\.gradle\caches\transforms-3\9adffd3802ab04e4a2aaf3c5711051e9\transformed\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Marzooq\.gradle\caches\transforms-3\9adffd3802ab04e4a2aaf3c5711051e9\transformed\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2bda41a667fb7ed42f1d81e3ab267d85\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2bda41a667fb7ed42f1d81e3ab267d85\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\28efb1e90a700a0b613c405584bacb4d\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\28efb1e90a700a0b613c405584bacb4d\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\99d424e79e30e80b1f94ac21f4e0dff2\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\99d424e79e30e80b1f94ac21f4e0dff2\transformed\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\9b02c1b5b176ea4b2ee8c5617c7cbe7a\transformed\jetified-butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\9b02c1b5b176ea4b2ee8c5617c7cbe7a\transformed\jetified-butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7cc838bf8242b55ec634e86f862012\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7cc838bf8242b55ec634e86f862012\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha04] C:\Users\Marzooq\.gradle\caches\transforms-3\d8d823c1cdd9f39654dd958b93085f8c\transformed\recyclerview-1.2.0-alpha04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha04] C:\Users\Marzooq\.gradle\caches\transforms-3\d8d823c1cdd9f39654dd958b93085f8c\transformed\recyclerview-1.2.0-alpha04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\08b0ad0176303e086664a409b738ba86\transformed\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\08b0ad0176303e086664a409b738ba86\transformed\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\Marzooq\.gradle\caches\transforms-3\3ee64c4bd1037f3e65f157f82b972c5c\transformed\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.beloo.widget:ChipsLayoutManager:0.3.7] C:\Users\Marzooq\.gradle\caches\transforms-3\3ee64c4bd1037f3e65f157f82b972c5c\transformed\jetified-ChipsLayoutManager-0.3.7\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\85d8e1ce50d61454e40a917d609e41b7\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\85d8e1ce50d61454e40a917d609e41b7\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\6e7fae76891715e2025ff2b7e1598322\transformed\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\6e7fae76891715e2025ff2b7e1598322\transformed\jetified-glide-4.13.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5bf2339c275ada30f53304c2ca5a8cc9\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5bf2339c275ada30f53304c2ca5a8cc9\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\b3af112e5e50aac4de007818d03e4e68\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] C:\Users\Marzooq\.gradle\caches\transforms-3\b3af112e5e50aac4de007818d03e4e68\transformed\jetified-viewbinding-4.1.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5b1a744b63c14de326a8ea42d1225127\transformed\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5b1a744b63c14de326a8ea42d1225127\transformed\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\72b4d7e060d1c5aad70a6a3ce6836f71\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\72b4d7e060d1c5aad70a6a3ce6836f71\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\0f416889d652a276dedf19d267530ae8\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\0f416889d652a276dedf19d267530ae8\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\ab11f38537eb73a2a66879c841e49dab\transformed\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\ab11f38537eb73a2a66879c841e49dab\transformed\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e99d44b1a07c8b180a05157ba2da0d1f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e99d44b1a07c8b180a05157ba2da0d1f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\06ec90e7d10b6153b12cb4fb520017eb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\06ec90e7d10b6153b12cb4fb520017eb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f2beb525451bcad4f8d311656d72f265\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f2beb525451bcad4f8d311656d72f265\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5e25f199290b3634156a1287cdbd17fd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5e25f199290b3634156a1287cdbd17fd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\40a3f719309318b3466d90f675dc2b67\transformed\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\40a3f719309318b3466d90f675dc2b67\transformed\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\68b254f5237fd71ad3e315c04706ad4f\transformed\jetified-play-services-auth-api-phone-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\68b254f5237fd71ad3e315c04706ad4f\transformed\jetified-play-services-auth-api-phone-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bbf39319a46583fd8f6ab2b4e4bb25db\transformed\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bbf39319a46583fd8f6ab2b4e4bb25db\transformed\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bd3b8d522bd6702689da7f234e91a618\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bd3b8d522bd6702689da7f234e91a618\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\1ca9c0875e7154cc21f5a61e6a456e9b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\1ca9c0875e7154cc21f5a61e6a456e9b\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.1] C:\Users\Marzooq\.gradle\caches\transforms-3\087bd90855594d6a160c87012299932b\transformed\fragment-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.1] C:\Users\Marzooq\.gradle\caches\transforms-3\087bd90855594d6a160c87012299932b\transformed\fragment-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f8142927f483d8898e1b13022f547197\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f8142927f483d8898e1b13022f547197\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2266ca0d768d4ed697a1694b9195ed07\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2266ca0d768d4ed697a1694b9195ed07\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\9c45952337903bac8f68125b295a8d03\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\9c45952337903bac8f68125b295a8d03\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\68110ec6d4ce8f780af95f2c48f4e773\transformed\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\68110ec6d4ce8f780af95f2c48f4e773\transformed\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\fa6ef2a57d2c366d00fcd0616ce5ecc0\transformed\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\fa6ef2a57d2c366d00fcd0616ce5ecc0\transformed\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\9d46ae6a98ad9b5848a48dff22daf875\transformed\jetified-activity-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.1] C:\Users\Marzooq\.gradle\caches\transforms-3\9d46ae6a98ad9b5848a48dff22daf875\transformed\jetified-activity-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\80c079421f3e4f845443370547a75053\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\80c079421f3e4f845443370547a75053\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\92942d5a9111456300a374d05eae5436\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\92942d5a9111456300a374d05eae5436\transformed\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e6f062ce63c0623eb30f508fc0eb2a8f\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e6f062ce63c0623eb30f508fc0eb2a8f\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\a0b46e405b7b98a9327e51cf16c939ca\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\a0b46e405b7b98a9327e51cf16c939ca\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\50791cf2eb76c28227ffc1bcb71be48d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\50791cf2eb76c28227ffc1bcb71be48d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e2d37912a391e57935e59b150ca3256c\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e2d37912a391e57935e59b150ca3256c\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e1407332c5c34467c09e0f34fea26f41\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\Marzooq\.gradle\caches\transforms-3\e1407332c5c34467c09e0f34fea26f41\transformed\jetified-gifdecoder-4.13.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d1f85bb4260fb91d7dec9a87fb32e04e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d1f85bb4260fb91d7dec9a87fb32e04e\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5ec79184134b42ef09199d156cc4881e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\5ec79184134b42ef09199d156cc4881e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2ed98c20b198a014e9454873ec5f11e4\transformed\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2ed98c20b198a014e9454873ec5f11e4\transformed\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\31984e0c6e713c124eed1b9ba9177826\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\31984e0c6e713c124eed1b9ba9177826\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d0093a51a736e29d7e989b543a62b9aa\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d0093a51a736e29d7e989b543a62b9aa\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2f30223d140121984059e0b1334968b6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2f30223d140121984059e0b1334968b6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\b7d1dd87abca64d40dd1a19a8cd7a321\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\b7d1dd87abca64d40dd1a19a8cd7a321\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f339e472becf6c581b287a5db9fc80c7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\f339e472becf6c581b287a5db9fc80c7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c1a3230438fee2b8c56785c424a21561\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c1a3230438fee2b8c56785c424a21561\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\8ce2433e21d4f0c98601521df76cbef2\transformed\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Marzooq\.gradle\caches\transforms-3\8ce2433e21d4f0c98601521df76cbef2\transformed\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d891325332e0c22e00bd9bbb5fd0c2da\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Marzooq\.gradle\caches\transforms-3\d891325332e0c22e00bd9bbb5fd0c2da\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2a76e38a051f2aa0d9646876f6d3ea22\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\2a76e38a051f2aa0d9646876f6d3ea22\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:28:13-60
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:12:9-16:20
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:12:19-63
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:13:13-15:29
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:14:17-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:14:25-62
+activity#com.razorpay.CheckoutActivity
+ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:18:9-29:20
+	android:configChanges
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:20:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:19:13-57
+intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
+ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:22:13-28:29
+data
+ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:25:17-27:47
+	android:host
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:26:21-42
+	android:scheme
+		ADDED from [com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:27:21-44
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

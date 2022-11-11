@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.maria.pastelhub.register.viewmodel.RegistrationViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".register.Registration">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:contentDescription="@string/login_background_image"
+                android:scaleType="fitXY"
+                android:src="@drawable/login" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/MainHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_s" />
+
+                <TextView
+                    style="@style/MainSubHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lets_enter_to_start_learning" />
+
+                <LinearLayout
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/IconImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/name"
+                        android:src="@drawable/name_icon" />
+
+                    <EditText
+                        android:id="@+id/name_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fifty"
+                        android:layout_marginEnd="@dimen/ten"
+                        android:layout_marginRight="@dimen/ten"
+                        android:background="@color/transparent_color"
+                        android:hint="@string/name"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        app:addTextChangedListener="@{viewModel.getNameTextWatcher}"
+                        tools:ignore="LabelFor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/IconImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/email"
+                        android:src="@drawable/mail" />
+
+                    <EditText
+                        android:id="@+id/email_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fifty"
+                        android:layout_marginEnd="@dimen/ten"
+                        android:layout_marginRight="@dimen/ten"
+                        android:background="@color/transparent_color"
+                        android:hint="@string/email"
+                        android:importantForAutofill="no"
+                        android:inputType="textEmailAddress"
+                        app:addTextChangedListener="@{viewModel.getEmailTextWatcher}"
+                        tools:ignore="LabelFor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/IconImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/contact_icon"
+                        android:src="@drawable/contact" />
+
+                    <EditText
+                        android:id="@+id/mobile_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fifty"
+                        android:layout_marginEnd="@dimen/ten"
+                        android:layout_marginRight="@dimen/ten"
+                        android:background="@color/transparent_color"
+                        android:hint="@string/mobile_number"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        app:addTextChangedListener="@{viewModel.getMobileTextWatcher}"
+                        tools:ignore="LabelFor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/twenty_five"
+                    android:layout_marginLeft="@dimen/twenty_five"
+                    android:layout_marginRight="@dimen/twenty_five">
+
+                    <Spinner
+                        android:id="@+id/spin_class"
+                        android:layout_gravity="center"
+                        android:entries="@array/classList"
+                        android:onItemSelected="@{(parent,view,pos,id)->viewModel.onSelectItem(parent,view,pos,id)}"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/IconImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/username"
+                        android:src="@drawable/username" />
+
+                    <EditText
+                        android:id="@+id/username_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fifty"
+                        android:layout_marginEnd="@dimen/ten"
+                        android:layout_marginRight="@dimen/ten"
+                        android:background="@color/transparent_color"
+                        android:hint="@string/username"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        app:addTextChangedListener="@{viewModel.getUsernameTextWatcher}"
+                        tools:ignore="LabelFor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        style="@style/IconImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/password_icon"
+                        android:src="@drawable/password" />
+
+                    <EditText
+                        android:id="@+id/password_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fifty"
+                        android:layout_marginEnd="@dimen/ten"
+                        android:layout_marginRight="@dimen/ten"
+                        android:background="@color/transparent_color"
+                        android:hint="@string/password"
+                        android:importantForAutofill="no"
+                        android:inputType="textPassword"
+                        tools:ignore="LabelFor" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/login_button"
+                    style="@style/ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fifty"
+                    android:onClick="@{viewModel::onRegisterClicked}"
+                    android:orientation="horizontal"
+                    android:text="@string/register_c" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/header_text"
+                    android:layout_marginEnd="@dimen/header_text"
+                    android:layout_marginBottom="@dimen/twenty_five"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextNonLinkRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/already_have_an_account" />
+
+                    <TextView
+                        style="@style/TextLinkRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="loginClicked"
+                        android:text="@string/login_s" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

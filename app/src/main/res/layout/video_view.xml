@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="VideoBinding">
+        <variable
+            name="videoViewModel"
+            type="com.maria.pastelhub.videos.livevideos.viewmodel.VideoViewModel" />
+        <variable
+            name="presenter"
+            type="com.maria.pastelhub.videos.livevideos.interfaces.ClickListener"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_margin="@dimen/ten"
+        android:layout_width="wrap_content"
+        android:onClick="@{ () -> presenter.onclickListener() }"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/ten">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/ten">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.youtube.player.YouTubeThumbnailView
+                            android:layout_width="match_parent"
+                            android:id="@+id/ytt"
+                            android:layout_height="200sp"
+                            imageUrl="@{videoViewModel.image}"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="@string/video_image" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hundred"
+                            android:layout_height="@dimen/hundred"
+                            android:src="@drawable/play_circle"
+                            android:layout_centerInParent="true"
+                            android:contentDescription="@string/play_circle" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{videoViewModel.name}"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/ten"
+                    android:textSize="@dimen/title_size"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="ReviewBinding">
+        <variable
+            name="reviewViewModel"
+            type="com.maria.pastelhub.book_landing.viewmodel.BookLandingViewModel" />
+        <variable
+            name="presenter"
+            type="com.maria.pastelhub.book_landing.interfaces.ClickListener"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_size"
+        android:onClick="@{(v)->presenter.onclickListener()}"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five"
+                android:orientation="horizontal">
+                
+                <androidx.cardview.widget.CardView
+                    android:layout_width="32sp"
+                    android:layout_height="32sp"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    app:cardCornerRadius="@dimen/fifty">
+
+                    <TextView
+                        android:id="@+id/first_letter_review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@{reviewViewModel.first_letter_review}"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/text_size"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name_review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/ten"
+                        android:layout_marginEnd="@dimen/ten"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/sub_title_size"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="@{reviewViewModel.name}" />
+
+                    <RatingBar
+                        android:id="@+id/rating_in_review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:rating="@{reviewViewModel.ratingFloat}"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        style="@style/foodRatingBar"/>
+                    
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/date_review"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@{reviewViewModel.date_time}"
+                    android:textSize="@dimen/text_size"
+                    android:gravity="right" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/content_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/sub_text"
+                android:maxHeight="@dimen/fifty"
+                android:lineSpacingExtra="4sp"
+                android:layout_marginTop="@dimen/text_size"
+                android:text="@{reviewViewModel.review}"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

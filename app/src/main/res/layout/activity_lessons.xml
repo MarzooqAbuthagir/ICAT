@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lessons.LessonsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_texture">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/major_header" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_intro"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/empty_text_blue"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvActIntro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="பொது முன்னுரை"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_one"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_one"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_1_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_two"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_two"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_2_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_three"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_three"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_3_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_four"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_four"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_4_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_five"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_five"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_5_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_six"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_six"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_6_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_seven"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_seven"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_7_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_eight"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                app:cardBackgroundColor="@color/activity_eight"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_8_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_con"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/empty_text_blue"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvActCon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="பொது முடிவுரை"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_nine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_9_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_ten"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_10_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_eleven"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_one"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_11_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_twelve"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_two"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_12_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_thirteen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_three"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_13_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_fourteen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_14_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_fifteen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_four"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_15_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_sixteen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_five"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_16_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_seventeen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_six"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_17_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_eighteen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_seven"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_18_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_nineteen"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_eight"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_19_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_twenty"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_two"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_20_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_twentyone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_marginLeft="@dimen/title_size"
+                android:layout_marginTop="@dimen/title_size"
+                android:layout_marginRight="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_three"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_21_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/activity_twentytwo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/forty"
+                android:layout_margin="@dimen/title_size"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/activity_four"
+                app:cardCornerRadius="@dimen/text_size">
+
+                <TextView
+                    android:id="@+id/tvAct22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/activity_22_tamil"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

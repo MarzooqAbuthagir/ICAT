@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="BookBinding">
+        <variable
+            name="viewModel"
+            type="com.maria.pastelhub.dashboard.viewmodel.DashboardViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_margin="@dimen/ten"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="130sp"
+                app:cardCornerRadius="@dimen/five">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:layout_width="100sp"
+                    android:layout_height="130sp"
+                    imageUrl="@{viewModel.image}"
+                    android:contentDescription="@string/book_image" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five"
+                android:textSize="@dimen/text_size"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@{viewModel.name}" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five"
+                android:textSize="@dimen/ten"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/sub_text"
+                android:text="@{viewModel.classes}" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="@{viewModel.ratingFloat}"
+                    android:isIndicator="true"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    style="@style/foodRatingBar"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/text_size"
+                    android:layout_marginStart="@dimen/ten"
+                    android:layout_marginEnd="@dimen/ten"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/eight"
+                    android:textStyle="bold"
+                    android:textColor="@color/sub_text"
+                    android:text="@{viewModel.rating}" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

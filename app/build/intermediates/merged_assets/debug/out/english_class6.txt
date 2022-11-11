@@ -1,0 +1,203 @@
+LESSON_1_START
+MATCH_START
+Jesus Christ##John the Baptist
+Namaan##Prophet Elisha
+St. Francis Xavier##Baptism
+Pope Paul VI##Reforms in the Liturgy
+Rev. Fr. Rosario Krishnaraj##Salesian Priest
+MATCH_END
+DRAG_WORDS_START
+I will sprinkle## clean water## on you## and## make you clean## from## all your idols## and##everything else## that has## defiled you.@Ezekiel 36:25. 
+Go, then,## to all peoples## everywhere## and make them## my disciples; baptize them## in the name## of the Father,## the Son, and## the Holy Spirit.@Matthew 28:19.
+You were## baptized## into union## with Christ,## and now## you are## clothed,## so to speak, with the life## of Christ## himself.@Galatians 3:27.
+DRAG_WORDS_END
+WORD_SEARCH_START
+“I baptize you in the name of the Father, and of the Son and of the Holy Spirit”.##e,F,a,t,h,e,r,H,h,q,t,h,e,r,u,o,t,e,o,f,t,h,e,l,d,z,S,o,n,e,k,y,g,i,o,e,o,f,p,S,d,t,n,m,i,x,h,p,n,p,j,a,I,o,f,i,a,a,e,n,p,c,n,r,n,b,h,l,a,n,d,i,i,n,t,y,o,u,s,t##8
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+To whom was God pleased with during the great flood? (Genesis 6:8)##Abraham##Issac##Noah##Moses##3
+Through what did God save Noah, his family and the animals during the great flood? (Genesis 6:14)##Ark##Ship##House##Boat##1
+Who did God choose to free the Israelites from the Egyptian slavery? (Exodus 3)##Abraham##Joshua##Aaron##Moses##4
+What did the Lord command Moses to divide the Red sea into two? (Exodus 14:16)##To stretch out his hand.##To lift up his stick and hold it out over the sea.##To raise his staff higher.##To walk on the water.##2
+Who cured Commander Naaman’s leprosy? (2 Kings 5:9)##Prophet Samuel##Prophet Elijah##Prophet Isaiah##Prophet Elisha##4
+From whom did Jesus receive baptism? (Matthew 3:13)##God the Father##Holy Spirit##John the Baptist##Disciples##3
+“This is my own dear Son, with whom I am pleased.” Who spoke these words? (Matthew 3:17)##God the Father##Holy Spirit##Disciples##John the Baptist##1
+To whom did Jesus ask for water to quench his thirst? (John 4:7-8)##Jewish woman##Canaanite woman##Samaritan woman##Roman woman##3
+What water did Jesus promise to offer the Samaritan woman? (John 4:10)##Drinking water##Tasty water##Good water##Life-giving water##4
+In whose name did the risen Jesus told the disciples to give baptism to all peoples? (Matthew 28:19)##In the name of the Father and of the Son and of the Holy Spirit.##In the name of the Father.##In the name of the Son.##In the name of the Holy Spirit.##1
+CHOOSE_ANSWER_END
+LESSON_1_END
+LESSON_2_START
+MATCH_START
+Confirmation##Holy Spirit
+Holy Spirit##Jesus Christ
+St. Stephen##First Martyr
+Pope Leo XIII##Letter on the Holy Spirit
+Blessed Rani Maria##Indore Diocese
+MATCH_END
+DRAG_WORDS_START
+The spirit## of the Lord## will give him## wisdom,## and## the knowledge## and## skill## to rule## his people.@Isaiah 11:2. 
+The Helper,## the Holy Spirit,## whom## the Father## will send## in my name,## will teach you## everything## and## make you## remember## all that## I have## told you.@John 14:26.
+Then## they saw## what## looked like## tongues## of fire## which## spread out and## touched## each person## there.## They were all## filled with## the Holy Spirit.@Acts of the Apostles 2:3-4.
+DRAG_WORDS_END
+WORD_SEARCH_START
+“Be sealed with the gift of the Holy Spirit.”##e,H,s,n,d,v,e,o,r,t,e,t,h,l,h,h,l,h,t,y,g,e,a,w,x,S,k,l,e,t,q,p,r,o,s,f,f,i,B,e,p,i,o,r,e,y,i,g,r,i,w,i,t,h,z,t,n,e,k,s##6
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Who was moving over the waters before the creation of the world? (Genesis 1:2)##God the Father##Jesus Christ##The Holy Spirit##Angel of the Lord##3
+To defeat whom Gideon was assisted by the spirit of the Lord? (Judges 7)##Egyptians##Amorites##Gibeonites##Midianites##4
+“The Spirit of the Lord will give him wisdom.” About whom did Prophet Isaiah prophesy these words? (Isaiah 11:2)##Jesus Christ##Judges##Prophets##Disciples##1
+Who did God choose to strengthen the Israelites? (Ezekiel 37)##Prophet Isaiah##Prophet Ezekiel##Prophet Jeremiah##Prophet Amos##2
+To whom did God tell Prophet Ezekiel to prophesy? (Ezekiel 37:4)##The people##The Priests##The Levities##The bones##4
+According to the angel Gabriel’s Annunciation, through whome Mary will be conceived and bear a son? (Luke 1:35)##The Holy Spirit##Angel Raphael##Angel Michael##The Angels##1
+Where was Jesus taken by the Holy Spirit to be tempted by the devil, after his baptism? (Matthew 4:1)##To the town##To the village##To the desert##To the forest##3
+To whom did Jesus say that he would give them the Spirit who will reveal them the truth about God? (John 14:17)##Priests##Pharisees##People##Disciples##4
+What day did the disciples receive the Holy Spirit? (Acts of the Apostles 2:1)##Pentecost##Passover##Sabbath##Harvest##1
+In what form did the Holy Spirit come down on the disciples during Pentecost? (Acts of the Apostles 2:3)##Clouds of fire##Fiery Dove##Tongues of fire##Spirit of fire##3
+CHOOSE_ANSWER_END
+LESSON_2_END
+LESSON_3_START
+MATCH_START
+Holy Eucharist##Sacrament of love
+Jesus Christ##Sacrament of the Holy Eucharist
+St. Padre Pio##The Holy Mass
+Pope St. Pius X##Pope of the Blessed Sacrament
+Graham Stuart Staines##Graham Stuart Staines
+MATCH_END
+DRAG_WORDS_START
+I would## feed you## with## the finest## wheat## and satisfy you## with## wild honey.@Psalm 81:16.
+I am## the living bread## that## came down## from heaven.## If anyone## eats## this bread,## he will live## forever.@John 6:51.
+My flesh## is the real## food;## my blood## is the real## drink.## Those who## eat## my flesh and## drink## my blood## live in me, and## I live in them.@John 6:55-56.
+DRAG_WORDS_END
+WORD_SEARCH_START
+“Take this all of you, and eat of it, for this is my body, which will be given up for you.”##y,g,i,v,e,n,u,p,w,o,a,e,r,y,o,u,n,f,u,d,b,o,w,i,l,l,o,c,s,a,f,m,y,x,p,h,b,i,n,t,a,k,e,s,c,o,h,d,f,h,i,t,i,i,d,t,k,o,w,l,r,h,h,y,g,e,a,l,l,m,t,w,e,a,t,i,s,q,f,o,r##9
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+In the Old Testament, what did the Israelites do after they had sacrificed a Sheep? (Leviticus 5:6)##They ate it.##They burnt it.##They threw it away.##They gave it to others##1
+What did God rain down from the sky for the Israelites to eat? (Exodus 16:4)##Bread##Water##Food##Wine##3
+What did the Israelites call the food rained down from the sky? (Exodus 16:15)##Bread##Manna##Food##Nothing##2
+“This is the food that the Lord has given you to eat.” Who said this? (Exodus 16:15)##Aaron##Joshua##Priest##Moses##4
+As per God’s command, what did the ravens bring to Elijah? (1 Kings 17:6)##Bread and wine##Bread and water##Bread and meat##Water and meat##4
+As per God’s command, from where did Elijah get water to drink? (1 Kings 17:6)##Brook##Well##Pond##Lake##1
+How did John the Baptist profess his belief on Jesus? (John 1:29)##God’s son##God’s blessing##God’s Mercy##Lamb of God##4
+What did Jesus multiply to feed a great crowd? (John 6:11)##Bread and water##Bread and Fish##Bread and quail##Bread and wine##2
+With whom did Jesus celebrate the Passover Festival? (Matthew 26:20)##Jews##Pharisees##Disciples##People##3
+What did Jesus take in his hand, gave a prayer of thanks, broke it and give it to his disciples? (Matthew 26:26)##Bread##Fish##Roti##Lamb##1
+CHOOSE_ANSWER_END
+LESSON_3_END
+LESSON_4_START
+MATCH_START
+Sacrament of Reconciliation##Repentance
+Jesus Christ##Forgiveness
+St. John of Nepomucen##Martyr of the Penitents
+Pope Pius XII##Eight Benefits of Reconciliation 
+Mr. Samandar Singh##Sr. Rani Maria
+MATCH_END
+DRAG_WORDS_START
+If they## pray to me## and## repent and## turn away## from the evil## they have## been doing,then## I will## hear them## in heaven,## forgive## their sins,## and make## their land## prosperous 
+##again.@2 Chronicles 7:14.
+I tell you,## there will be more joy## in heaven## over## one sinner## who repents.@Luke 15:7.
+The Lord## is patient## with you,## because## he does not## want anyone## to be destroyed, ##but## wants all## to turn away from## their sins.@2 Peter 3:9.
+DRAG_WORDS_END
+WORD_SEARCH_START
+My God, I am sorry for my sins with all my heart. In choosing to do wrong, and failing to do good, I have sinned against you, whom I should love above all things. I firmly intend, with your help to do penance, to sin no more, and to avoid whatever leads me to sin. Our Saviour Jesus Christ suffered and died for us. In his name, my God, have mercy.##s,u,f,f,e,r,e,d,t,o,s,i,n,w,n,t,f,s,l,o,v,e,t,h,i,n,g,s,h,i,w,o,i,r,h,e,l,p,a,l,l,h,o,o,s,r,r,h,c,h,o,o,s,i,n,g,a,d,m,o,o,m,y,S,a,v,i,o,u,r,n,v,o,e,t,n,t,s,d,I,m,h,u,a,n,d,e,t,v,h,g,s,h,o,f,y,t,o,m,t,o,d,o,a,t,y,n,o,G,i,G,i,y,h,e,a,r,t,h,i,o,i,u,y,r,o,w,I,n,n,a,m,e,I,w,u,a,l,M,m,d,I,s,i,n,n,e,d,c,y,r,g,d,l,l,p,e,n,a,n,c,e,e,d,m,r,a,d,l,y,a,m,s,o,r,r,y,v,i,e,o,n,n,a,I,m,e,r,c,y,O,d,o,o,m,f,I,a,f,a,i,l,i,n,g,u,n,b,v,s,d,o,g,o,o,d,s,i,n,s,r,a,a,a,d,J,e,s,u,s,C,h,r,i,s,t,t,o,o,a,u,s,n,o,m,o,r,e,g,d,i,e,d,t,e,w,h,a,t,e,v,e,r,i,n,t,e,n,d,l##15
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Whom did God send to King David, to point out the mistake of King David? (2 Samuel 12:1)##Prophet Isaiah##Prophet Jeremiah##Prophet Ezekiel##Prophet Nathan##4
+“I have sinned against the Lord.” Who said this? (2 Samuel 12:13)##King Saul##King David##King Solomon##King Hezekiah##2
+Which king did what was evil in the sight of the Lord, angered God and was taken to Babylon as a captive? (2 Chronicles 33:11)##King David##King Manasseh##King Hezekiah##King Josiah##2
+Who did God sent to prophesy about the fall of Nineveh? (Jonah 3:1-2)##Prophet Isaiah##Prophet Jeremiah##Prophet Jonah##Prophet Ezekiel##3
+What did the Lord do when the people of Nineveh repented for their sins? (Jonah 3:10)##He changed his mind##He showered his love##He showed his mercy##He gave them peace##1
+Who came back to his father, according to the parable of “the lost son”, told by Jesus? (Luke 15:17)##The elder son##The elder daughter##The younger son##The younger daughter##3
+What will be there in heaven over one sinner who repents? (Luke 15:7)##More Love##More Joy##More Peace##More Mercy##2
+What did Peter do after he denied Jesus three times? (Luke 22:62)##He became sad##He changed his heart##He was deeply moved##He wept bitterly##4
+“Simon, son of John, do you love me?” How many times did Jesus ask this question to Peter? (John 21:17)##Two times##Four times##Three times##Five times##3
+“If you forgive people’s sins, they are forgiven.” Whom did Jesus say this to? (John 20:23)##Disciples##Emmaus Disciples##Apostles##Women##1
+CHOOSE_ANSWER_END
+LESSON_4_END
+LESSON_5_START
+MATCH_START
+Anointing of the Sick##Healing Sacrament
+Disciples of Jesus##Healing by rubbing oil
+St. Camillus of Lellis##Camillian Congregation
+St. John Paul II##The World Day of the Sick
+Dr. Jayachandran##Five Rupees Doctor
+MATCH_END
+DRAG_WORDS_START
+I will heal## this city and## its people## and## restore them## to health.@Jeremiah 33:6.
+The disciples## went out and## preached## that people## should## turn away## from## their sins;## and## rubbed## olive oil## on many## sick people## and## healed them.@Mark 6:12-13.
+Are## any of you## ill?## You should## send for## the church elders,## who will pray## for them## and rub## olive oil## on them## in the name## of the Lord. This prayer## made## in faith will heal## the sick; the Lord## will restore them## to health.@James 5:14-15.
+DRAG_WORDS_END
+WORD_SEARCH_START
+“Through this holy anointing, may the Lord in his love and mercy help you with the grace of the Holy Spirit. May the Lord who frees you from sin save you and raise you up.”##L,o,r,d,s,a,n,d,s,t,h,e,h,i,s,t,h,o,l,y,e,y,e,e,l,m,a,y,g,H,p,e,e,o,v,v,r,y,T,L,n,o,l,h,r,u,o,a,e,o,h,o,i,l,e,t,f,y,l,s,s,u,r,r,t,y,h,u,p,y,o,u,i,e,o,d,n,S,g,r,a,c,e,u,a,h,u,d,i,p,g,t,h,i,s,e,r,t,g,n,o,i,f,y,n,u,h,h,f,e,h,a,n,r,r,a,i,o,t,t,o,s,i,n,a,i,o,M,n,y,i,w,m,e,r,c,y,t,m,w,h,o,w,e##12
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Which King’s hand was frozen when he pointed out his hand against the prophet sent by God? (1 Kings 13:4)##King Jehoshaphat##King Ahaz##King Jeroboam##King Abijah##3
+Who was the king who prayed to God to be healed from his sickness? (2 Kings 20:2-3)##King Hezekiah##King Manasseh##King Amon##King Josiah##1
+How many years did God add to King Hezekiah’s life span after hearing his prayer? (2 Kings 20:6)##Twelve years##Fifteen years##Twenty years##Thirty years##2
+Which prophet was taught by God and was sent to the people of Judah? (Isaiah 1:1)##Ezekiel##Jeremiah##Daniel##Isaiah##4
+What did the disciples send by Jesus applied to the sick and healed them? (Mark 6:13)##Balm##Medicine##Olive oil##Grape wine##3
+In whose letter was it written that a sick person should send for the church elders in order to be healed by rubbing olive oil? (James 5:14-15)##Paul##James##Peter##John##2
+According to the letter of St. James, who should pray to God for healing? (James 5:13)##Sinners##Diseased people##Those who suffer##Poor##3
+What parable did Jesus tell a teacher of the Jewish Law when he asked him, “Who is my neighbour?” (Luke 10:25-37)##The Good Samaritan##The Sower##The Lost Coin##The Lost Son##1
+What did the Good Samaritan pour on the wounds of the wounded man besides wine? (Luke 10:33-37)##Honey##Water##Oil##Medicine##3
+CHOOSE_ANSWER_END
+LESSON_5_END
+LESSON_6_START
+MATCH_START
+Priest of the Old Testament##Melchizedek
+Jesus Christ##High Priest 
+St. John Maria Vianney##Patron of Parish Priests
+Pope Pius IX##Letter on “Catholic Priesthood” 
+Rev. Fr. Louis Leveil##People’s Priest
+MATCH_END
+DRAG_WORDS_START
+I, your Lord## and Teacher,## have just## washed## your feet.## You, then,## should wash## one another’s feet. I have set an example for you,## so that## you will do just what I have done for you.@(John 13:14-15).
+And now## I give you## a new## commandment:## love## one another. As I have## loved you,## so you must love## one another.@John 13:34.
+Let us,## then,## hold firmly## to the faith we## profess.## For## we have## a great High Priest## who has gone## into the very## presence of God – Jesus, the Son of God.@Hebrews 4:14.
+DRAG_WORDS_END
+WORD_SEARCH_START
+“The Father anointed our Lord Jesus Christ through the power of the Holy Spirit. May Jesus preserve you to sanctify the Christian people and offer sacrifice to God"## J,e,s,u,s,C,h,r,i,s,t,l,s,H,a,t,h,r,o,u,g,h,L,k,o,p,r,e,s,e,r,v,e,o,d,l,y,p,e,o,p,l,e,C,r,e,y,f,F,a,t,h,e,r,h,d,t,S,i,M,a,y,t,o,f,r,e,n,p,t,p,J,t,h,e,r,i,h,i,i,c,o,e,t,o,o,e,s,t,o,r,n,w,s,c,g,t,f,t,m,n,i,a,e,u,T,h,e,f,i,e,a,t,s,r,s,o,u,r,o,a,h,a,n,d,y,o,u,G,o,d,n,t,b,s,a,c,r,i,f,i,c,e##11
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+From which clan were the priests appointed in the Old Testament? (Exodus 28:43)##Judah##Aaron##Benjamin##Ruben##2
+Which region did Melchizedek the high priest rule? (Genesis 14:18)##Judah##Israel##Egypt##Salem##4
+Who did King Melchizedek praise and bless? (Genesis 14:19)##Abram##Issac##Jacob##Joseph##1
+Who anointed Aaron and his sons to be the priests? (Leviticus 8:1)##Samuel##Isaiah##Moses##Ezekiel##3
+Who will reign as priest forever, in the priestly order of Melchizedek? (Hebrews 5:5-6)##Jesus Christ##Aaron##Peter##John##1
+Why did the Son of Man come down to the earth? (Mark 10:45)##To love##To preach##To work##To serve##4
+Whose feet did Jesus wash to teach that the priesthood is for service? (John 13:5)##Priests##Disciples##Pharisees##Teachers of the Law##2
+“I have set an example for you, so that you will do just what I have done for you.” By saying this, what did Jesus tell his disciples to do? (John 12:14-15)##To wash one another’s feet##To preach to one another##To preach Good News##To pray for one another##1
+On which occasion did Jesus institute the Sacrament of Priesthood? (Luke 22:13)##Festival of Gathering##Festival of Harvest##Passover Festival##Feast of Unleavened Bread##3
+What did Jesus do before he distributed the Bread and the Wine to his disciples? (Luke 22:14-20)##He gave thanks to God##He prayed to God##He praised God##He glorified God##1
+CHOOSE_ANSWER_END
+LESSON_6_END
+LESSON_7_START
+MATCH_START
+Marriage##Marriage
+Jesus Christ##Jesus Christ
+St. Louis Martin##St. Zelie Guerin
+Pope Pius XI##Letter on “Christian Marriage”
+Mrs. Latha##Mr. Sivakumar
+MATCH_END
+DRAG_WORDS_START
+A man## leaves## his father## and## mother## and## is united## with his wife,## and## they become one.@Genesis 2:24.
+They are## no longer## two,## but one.## No human being## then## must separate,## what God## has joined## together.@Mark 10:8-9.
+Husbands,## love## your wives## just as## Christ## loved## the Church## and## gave## his life## for it.@Ephesians 5:25.
+DRAG_WORDS_END
+WORD_SEARCH_START
+“I promise to be true to you in good times and bad, in sickness and in health. I will love you and honour you all the days of my life.”##s,m,h,o,n,o,u,r,s,e,s,i,c,k,n,e,s,s,m,u,f,t,h,i,e,e,d,i,o,o,h,e,n,p,f,n,t,y,I,e,a,m,r,i,a,t,a,n,d,l,t,o,l,i,w,i,l,l,t,o,m,p,n,d,y,o,u,h,u,i,e,t,a,g,o,o,d,o,s,b,o,b,t,r,u,e,y,e,e,I,i,m,y,a,n,d,a,l,l,n,d,a,y,s,l,o,v,e##9
+WORD_SEARCH_END
+CHOOSE_ANSWER_START
+Whom did God create as men and women? (Genesis 1:27)##Human beings##Animals##Birds##Sea animals##1
+When Abraham became old, whom did he send to find a suitable wife for his son Issac? (Genesis 24:2)##One of his servants##One of his relatives##His oldest servant##One of his friends##3
+Who drew water for Abraham’s servant and his camels? (Genesis 24:15-20)##Sarah##Rebecca##Leah##Rachel##2
+Who did Abraham’s son Issac marry? (Genesis 24:67)##Sarah##Leah##Rachel##Rebecca##4
+According to the book of Sirach, what kind of wife is a blessing to a man? (Sirach 26:1)##A good wife##A humble wife##A merciful wife##A courageous wife##1
+“No human being must separate, then, what God has joined together.” Whom did Jesus tell this? (Matthew 19:3-6)##Teachers of the law##Wealthy man##Pharisees##Sadducees##3
+At which place did Jesus and his disciples attend a wedding? (John 2:1)##Galilee##Cana##Jerusalem##Capernaum##2
+What was the first miracle that Jesus performed? (John 2:1-11)##Turning the water into wine##Healing a blind man##Healing a sick person##Healing a man with leprosy##1
+What is the instruction given by St. Paul to the married women towards their husband, in his letter to the Ephesians? (Ephesians 5:22)##Love your husbands##Care for your husbands##Submit to your husbands##Support your husbands##3
+What should the married men show towards their wife, according to St. Paul in his letter to the Ephesians? (Ephesians 5:25)##Love##Mercy##Compassion##Concern##1
+CHOOSE_ANSWER_END
+LESSON_7_END

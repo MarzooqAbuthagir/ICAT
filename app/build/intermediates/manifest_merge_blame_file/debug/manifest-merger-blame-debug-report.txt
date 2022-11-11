@@ -1,0 +1,333 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.maria.pastelhub"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:7:5-78
+12-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:9:22-78
+15
+16    <queries>
+16-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:11:5-15:15
+17        <intent>
+17-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:12:9-14:18
+18            <action android:name="com.google.android.youtube.api.service.START" />
+18-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:13:13-83
+18-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:13:21-80
+19        </intent>
+20    </queries>
+21
+22    <application
+22-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:17:5-102:19
+23        android:name="com.maria.pastelhub.application.ICatApplication"
+23-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:18:9-52
+24        android:allowBackup="true"
+24-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:19:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.2] C:\Users\Marzooq\.gradle\caches\transforms-3\520f42ac52c7be985fe5b3e91e3a64d7\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:fullBackupContent="true"
+27-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:20:9-41
+28        android:hardwareAccelerated="true"
+28-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:21:9-43
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:22:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:23:9-41
+31        android:largeHeap="true"
+31-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:24:9-33
+32        android:supportsRtl="true"
+32-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:25:9-35
+33        android:theme="@style/AppTheme"
+33-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:26:9-40
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:27:9-44
+35        <activity android:name="com.maria.pastelhub.lessons.TamilLkgUkgActivity" />
+35-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:29:9-30:58
+35-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:30:13-56
+36        <activity
+36-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:31:9-33:40
+37            android:name="com.maria.pastelhub.splash_screens.EnglishAnthemActivity"
+37-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:32:13-65
+38            android:exported="false" />
+38-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:33:13-37
+39        <activity
+39-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:34:9-36:40
+40            android:name="com.maria.pastelhub.splash_screens.TamilAnthemActivity"
+40-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:35:13-63
+41            android:exported="false" />
+41-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:36:13-37
+42        <activity
+42-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:37:9-45:20
+43            android:name="com.maria.pastelhub.splash_screens.MainActivity"
+43-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:38:13-56
+44            android:screenOrientation="portrait" >
+44-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:39:13-49
+45            <intent-filter>
+45-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:40:13-44:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:41:17-69
+46-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:41:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:43:17-77
+48-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:43:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:47:9-49:55
+53            android:name="com.razorpay.ApiKey"
+53-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:48:13-47
+54            android:value="rzp_test_PVtCBpH3jKHIDB" />
+54-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:49:13-52
+55        <meta-data
+55-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:50:9-52:36
+56            android:name="com.google.android.gms.wallet.api.enabled"
+56-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:51:13-69
+57            android:value="true" />
+57-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:52:13-33
+58
+59        <activity android:name="com.maria.pastelhub.star_collecting.activity.StarCollectingActivity" />
+59-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:54:9-85
+59-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:54:19-82
+60        <activity android:name="com.maria.pastelhub.review.ReviewActivity" />
+60-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:55:9-59
+60-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:55:19-56
+61        <activity android:name="com.maria.pastelhub.videos.playvideo.PlayVideo" />
+61-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:56:9-64
+61-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:56:19-61
+62        <activity android:name="com.maria.pastelhub.videos.songs.Songs" />
+62-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:57:9-56
+62-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:57:19-53
+63        <activity android:name="com.maria.pastelhub.videos.weblinks.WebLinks" />
+63-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:58:9-62
+63-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:58:19-59
+64        <activity
+64-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:59:9-61:58
+65            android:name="com.maria.pastelhub.videos.livevideos.LiveVideo"
+65-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:60:13-56
+66            android:screenOrientation="sensorPortrait" />
+66-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:61:13-55
+67        <activity android:name="com.maria.pastelhub.videos.livevideos.LiveVideo1" />
+67-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:62:9-66
+67-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:62:19-63
+68        <activity
+68-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:63:9-65:53
+69            android:name="com.maria.pastelhub.videos.FullScreenVideoView"
+69-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:64:13-55
+70            android:screenOrientation="landscape" />
+70-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:65:13-50
+71        <activity android:name="com.maria.pastelhub.activity.draganddrop.DragandDrop" />
+71-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:66:9-70
+71-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:66:19-67
+72        <activity android:name="com.maria.pastelhub.activity.draganddrop.DragandDroplu" />
+72-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:67:9-72
+72-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:67:19-69
+73        <activity android:name="com.maria.pastelhub.activity.draganddrop.DragandDropluTamil" />
+73-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:68:9-77
+73-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:68:19-74
+74        <activity android:name="com.maria.pastelhub.activity.wordsearch.WordSearch" />
+74-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:69:9-68
+74-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:69:19-65
+75        <activity android:name="com.maria.pastelhub.activity.choose.ChooseAnswerActivity" />
+75-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:70:9-74
+75-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:70:19-71
+76        <activity android:name="com.maria.pastelhub.splash_screens.VideoActivity" />
+76-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:71:9-66
+76-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:71:19-63
+77        <activity
+77-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:72:9-74:58
+78            android:name="com.maria.pastelhub.activity.maze.MazeActivity"
+78-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:73:13-55
+79            android:screenOrientation="sensorPortrait" />
+79-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:74:13-55
+80        <activity
+80-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:75:9-77:58
+81            android:name="com.maria.pastelhub.activity.colordrawing.MainActivity"
+81-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:76:13-63
+82            android:screenOrientation="sensorPortrait" />
+82-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:77:13-55
+83        <activity android:name="com.maria.pastelhub.activity.lineconnector.LineConnector" />
+83-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:78:9-74
+83-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:78:19-71
+84        <activity android:name="com.maria.pastelhub.activity.match.MatchActivtiy" />
+84-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:79:9-66
+84-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:79:19-63
+85        <activity android:name="com.maria.pastelhub.activity.match.LkgMatchActivtiy" />
+85-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:80:9-69
+85-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:80:19-66
+86        <activity android:name="com.maria.pastelhub.activity.match.TamilLkgMatchActivtiy" />
+86-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:81:9-74
+86-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:81:19-71
+87        <activity android:name="com.maria.pastelhub.activity.match.UkgMatchActivtiy" />
+87-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:82:9-69
+87-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:82:19-66
+88        <activity android:name="com.maria.pastelhub.activity.BaseActivityExtends" />
+88-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:83:9-66
+88-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:83:19-63
+89        <activity android:name="com.maria.pastelhub.lessons.LessonsActivity" />
+89-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:84:9-61
+89-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:84:19-58
+90        <activity android:name="com.maria.pastelhub.lessons.TamilNumberChoose" />
+90-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:85:9-63
+90-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:85:19-60
+91        <activity
+91-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:86:9-88:51
+92            android:name="com.maria.pastelhub.ebook.EBook"
+92-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:87:13-40
+93            android:hardwareAccelerated="false" />
+93-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:88:13-48
+94        <activity android:name="com.maria.pastelhub.book_landing.BookLanding" />
+94-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:89:9-62
+94-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:89:19-59
+95        <activity android:name="com.maria.pastelhub.emptystatus.EmptyStatus" />
+95-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:90:9-61
+95-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:90:19-58
+96        <activity android:name="com.maria.pastelhub.emptystatus.EmptyView" />
+96-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:91:9-59
+96-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:91:19-56
+97        <activity android:name="com.maria.pastelhub.profile.Profile" />
+97-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:92:9-53
+97-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:92:19-50
+98        <activity android:name="com.maria.pastelhub.register.Registration" />
+98-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:93:9-59
+98-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:93:19-56
+99        <activity android:name="com.maria.pastelhub.forgetpassword.ForgetPassword" />
+99-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:94:9-67
+99-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:94:19-64
+100        <activity android:name="com.maria.pastelhub.login.Login" />
+100-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:95:9-49
+100-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:95:19-46
+101        <activity
+101-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:96:9-98:49
+102            android:name="com.maria.pastelhub.splash_screens.JesusIntro"
+102-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:97:13-54
+103            android:theme="@style/LoginTheme" />
+103-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:98:13-46
+104        <activity android:name="com.maria.pastelhub.dashboard.Dashboard" />
+104-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:99:9-57
+104-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:99:19-54
+105
+106        <service android:name="com.maria.pastelhub.services.MusicService" />
+106-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:101:9-58
+106-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:101:18-55
+107
+108        <activity
+108-->[com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:27:9-29:72
+109            android:name="com.karumi.dexter.DexterActivity"
+109-->[com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:28:13-60
+110            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+110-->[com.karumi:dexter:6.2.0] C:\Users\Marzooq\.gradle\caches\transforms-3\7d47bd3eb552ec911c5ed2673d3ebc7c\transformed\jetified-dexter-6.2.0\AndroidManifest.xml:29:13-69
+111
+112        <provider
+112-->[com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+113            android:name="com.squareup.picasso.PicassoProvider"
+113-->[com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+114            android:authorities="com.maria.pastelhub.com.squareup.picasso"
+114-->[com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+115            android:exported="false" />
+115-->[com.squareup.picasso:picasso:2.71828] C:\Users\Marzooq\.gradle\caches\transforms-3\7b7352212fe3c840be4a30e57d5a8bdb\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+116
+117        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+117-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:12:9-16:20
+117-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:12:19-63
+118            <intent-filter>
+118-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:13:13-15:29
+119                <action android:name="rzp.device_token.share" />
+119-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:14:17-65
+119-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:14:25-62
+120            </intent-filter>
+121        </receiver>
+122
+123        <activity
+123-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:18:9-29:20
+124            android:name="com.razorpay.CheckoutActivity"
+124-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:19:13-57
+125            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+125-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:20:13-83
+126            android:theme="@style/CheckoutTheme" >
+126-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:21:13-49
+127            <intent-filter>
+127-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:22:13-28:29
+128                <action android:name="android.intent.action.MAIN" />
+128-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:41:17-69
+128-->C:\Users\Marzooq\Android Project\icat_androidnew\app\src\main\AndroidManifest.xml:41:25-66
+129
+130                <data
+130-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:25:17-27:47
+131                    android:host="rzp.io"
+131-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:26:21-42
+132                    android:scheme="io.rzp" />
+132-->[com.razorpay:checkout:1.6.4] C:\Users\Marzooq\.gradle\caches\transforms-3\2a09022e559edf1f68930d6e95b8959d\transformed\jetified-checkout-1.6.4\AndroidManifest.xml:27:21-44
+133            </intent-filter>
+134        </activity>
+135
+136        <provider
+136-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+137            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+137-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+138            android:authorities="com.maria.pastelhub.lifecycle-process"
+138-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+139            android:exported="false"
+139-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+140            android:multiprocess="true" />
+140-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\98254cc0ed2bd26009e232e0aa0c554e\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+141
+142        <activity
+142-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+143            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+143-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+144            android:excludeFromRecents="true"
+144-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+147        <!--
+148            Service handling Google Sign-In user revocation. For apps that do not integrate with
+149            Google Sign-In, this service will never be started.
+150        -->
+151        <service
+151-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+152            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+152-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+153            android:exported="true"
+153-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+154            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+154-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\c7672dfe2b9acabaa70a26f0b3dd3309\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\bc7003d627622f9e0584e56c112a0ad4\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marzooq\.gradle\caches\transforms-3\36083e62c7126d896354feb6aff51b8a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+164    </application>
+165
+166</manifest>

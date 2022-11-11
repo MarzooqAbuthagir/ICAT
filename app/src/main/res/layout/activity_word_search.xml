@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.wordsearch.WordSearch">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_texture">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/major_header" />
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@drawable/boywithlens"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/twenty_five" />
+
+            <Button
+                android:id="@+id/hint"
+                android:layout_width="@dimen/hundred"
+                android:layout_height="@dimen/forty"
+                android:background="@drawable/curve_button_orange"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/button_text_size"
+                android:textSize="@dimen/twenty_five"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:text="@string/hint_tamil" />
+
+            <HorizontalScrollView
+                android:layout_margin="@dimen/twenty_five"
+                android:scrollbars="none"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"/>
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/datadisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/forty"
+                android:layout_margin="@dimen/ten"
+                android:padding="@dimen/ten"
+                android:textSize="15sp"
+                android:textColor="#5075BB"
+                android:background="#C2D4E6"
+                android:gravity="center_vertical|center_horizontal"
+               />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

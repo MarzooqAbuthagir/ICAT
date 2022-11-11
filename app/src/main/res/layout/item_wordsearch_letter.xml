@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:layout_margin="1dp"
+    android:textColor="#5075BB"
+    android:textSize="15dp"
+    android:gravity="center"
+    android:background="@drawable/wordsearch_default"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp" android:layout_height="40dp"/>
+

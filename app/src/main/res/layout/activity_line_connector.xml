@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.lineconnector.LineConnector">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_texture">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/major_header" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="600sp">
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    android:text="ஆண்டவராகிய கடவுள்"
+                    android:layoutDirection="rtl"
+                    android:layout_marginTop="@dimen/button_text_size"
+                    android:layout_marginLeft="@dimen/text_size"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:textSize="@dimen/text_size"
+                    android:background="@drawable/line_connection1"
+                    android:textColor="@color/black"
+                    android:gravity="center" />
+
+               <RadioButton
+                    
+                    android:id="@+id/q1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:layout_marginLeft="140sp"
+                    android:layout_marginStart="140sp" />
+
+                <TextView
+                    android:id="@+id/tv_a2"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:text="உலகை மீட்டவர்"
+                    android:textSize="@dimen/text_size"
+                    android:background="@drawable/line_connection1"
+                    android:layout_marginTop="@dimen/button_text_size"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/text_size"
+                    android:layout_marginEnd="@dimen/text_size"
+                    android:gravity="center" />
+
+               <RadioButton
+                    
+                    android:id="@+id/a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="140sp"
+                    android:layout_marginEnd="140sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv1"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_size"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:text="இயேசு கிறிஸ்து"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection2"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/q2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv1"
+                    android:layout_marginStart="140sp"
+                    android:layout_marginLeft="140sp"
+                    android:layout_marginTop="50dp" />
+
+                <TextView
+                    android:id="@+id/tv_a3"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv_a2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_size"
+                    android:gravity="center"
+                    android:text="வழிநடத்துபவர்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection2"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_a2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="140sp"
+                    android:layout_marginRight="140sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_size"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:text="தூய ஆவியார்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection3"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/q3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv2"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="140sp"
+                    android:layout_marginLeft="140sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv_a1"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv_a3"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_size"
+                    android:gravity="center"
+                    android:text="உலகைப் படைத்தவர்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection3"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_a3"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="140sp"
+                    android:layout_marginRight="140sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv3"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_size"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:text="புனித எலிசபெத்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection4"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/q4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv3"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="140sp"
+                    android:layout_marginLeft="140sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv_a5"
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv_a1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_size"
+                    android:gravity="center"
+                    android:text="நிசேயா பொதுசங்கம்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection4"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/a5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_a1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="140sp"
+                    android:layout_marginRight="140sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv4"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_size"
+                    android:gravity="center"
+                    android:layoutDirection="rtl"
+                    android:text="திருத்தந்தை முதலாம் தமசுஸ்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection5"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/q5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv4"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="140sp"
+                    android:layout_marginLeft="140sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="130sp"
+                    android:layout_height="100sp"
+                    android:layout_below="@+id/tv_a5"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="@dimen/text_size"
+                    android:layout_marginRight="@dimen/text_size"
+                    android:gravity="center"
+                    android:text="மூவொரு கடவுள்"
+                    android:textColor="@color/black"
+                    android:background="@drawable/line_connection5"
+                    android:textSize="@dimen/text_size" />
+
+               <RadioButton
+                    
+                    android:id="@+id/a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_a5"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="140dp"
+                    android:layout_marginRight="140dp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

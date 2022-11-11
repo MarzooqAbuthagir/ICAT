@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.maria.pastelhub.dashboard.viewmodel.DashboardViewModel" />
+    </data>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".dashboard.Dashboard">
+
+
+            <LinearLayout
+                android:background="@drawable/background_texture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/header_dashboard" />
+
+                <TextView
+                    android:id="@+id/book_select_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:layout_marginEnd="@dimen/text_size"
+                    android:layout_marginTop="@dimen/text_size"
+                    android:layout_marginBottom="@dimen/five"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/black"
+                    android:text="@string/select_book" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/forty"
+                    android:layout_height="@dimen/five"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    android:layout_marginBottom="@dimen/text_size"
+                    android:layout_marginStart="@dimen/text_size"
+                    android:layout_marginLeft="@dimen/text_size" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/dashboard_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="3"
+                    />
+
+
+            </LinearLayout>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</layout>

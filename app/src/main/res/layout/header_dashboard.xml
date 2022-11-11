@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="270sp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235sp"
+        android:src="@drawable/dash_img"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/jesus_image" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="235sp"
+        android:background="#80000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginHorizontal="20sp"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <ImageView
+                android:id="@+id/navigation_icon"
+                android:layout_width="32sp"
+                android:layout_height="32sp"
+                android:src="@drawable/navigation_button"
+                android:contentDescription="@string/navigation_button" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1.5"/>
+
+
+
+            <ImageView
+                android:id="@+id/sound_icon_header"
+                android:layout_width="32sp"
+                android:layout_height="32sp"
+                android:src="@drawable/sound_on"
+                android:layout_marginLeft="@dimen/ten"
+                android:layout_marginStart="@dimen/ten"
+                android:contentDescription="@string/sound_icon" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/heading_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/title_size"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:paddingBottom="20sp"
+            android:text="@string/let_the_little_children_come_to_me_mk_10_14" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tamil_medium_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tamil_selected"
+            android:contentDescription="@string/tamil_medium_icon" />
+
+        <ImageView
+            android:id="@+id/english_medium_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/english_non_selected"
+            android:contentDescription="@string/english_medium_icon" />
+
+    </LinearLayout>
+
+</RelativeLayout>
