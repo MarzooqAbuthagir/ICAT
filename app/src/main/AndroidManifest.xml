@@ -27,7 +27,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
-            android:name=".lessons.TamilLkgUkgActivity"/>
+            android:name=".lessons.TamilLkgUkgActivity" android:exported="false"/>
         <activity
             android:name=".splash_screens.EnglishAnthemActivity"
             android:exported="false" />
@@ -36,7 +36,7 @@
             android:exported="false" />
         <activity
             android:name=".splash_screens.MainActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,54 +51,76 @@
             android:name="com.google.android.gms.wallet.api.enabled"
             android:value="true" />
 
-        <activity android:name=".star_collecting.activity.StarCollectingActivity" />
-        <activity android:name=".review.ReviewActivity" />
-        <activity android:name=".videos.playvideo.PlayVideo" />
-        <activity android:name=".videos.songs.Songs" />
-        <activity android:name=".videos.weblinks.WebLinks" />
+        <activity android:name=".star_collecting.activity.StarCollectingActivity" android:exported="false" />
+        <activity android:name=".review.ReviewActivity" android:exported="false"/>
+        <activity android:name=".videos.playvideo.PlayVideo" android:exported="false"/>
+        <activity android:name=".videos.songs.Songs" android:exported="false"/>
+        <activity android:name=".videos.weblinks.WebLinks" android:exported="false"/>
         <activity
             android:name=".videos.livevideos.LiveVideo"
-            android:screenOrientation="sensorPortrait" />
-        <activity android:name=".videos.livevideos.LiveVideo1" />
+            android:screenOrientation="sensorPortrait" android:exported="false"/>
+        <activity android:name=".videos.livevideos.LiveVideo1" android:exported="false"/>
         <activity
             android:name=".videos.FullScreenVideoView"
-            android:screenOrientation="landscape" />
-        <activity android:name=".activity.draganddrop.DragandDrop" />
-        <activity android:name=".activity.draganddrop.DragandDroplu" />
-        <activity android:name=".activity.draganddrop.DragandDropluTamil" />
-        <activity android:name=".activity.wordsearch.WordSearch" />
-        <activity android:name=".activity.choose.ChooseAnswerActivity" />
-        <activity android:name=".splash_screens.VideoActivity" />
+            android:screenOrientation="landscape" android:exported="false"/>
+        <activity android:name=".activity.draganddrop.DragandDrop" android:exported="false"/>
+        <activity android:name=".activity.draganddrop.DragandDroplu" android:exported="false"/>
+        <activity android:name=".activity.draganddrop.DragandDropluTamil" android:exported="false"/>
+        <activity android:name=".activity.wordsearch.WordSearch" android:exported="false"/>
+        <activity android:name=".activity.choose.ChooseAnswerActivity" android:exported="false"/>
+        <activity android:name=".splash_screens.VideoActivity" android:exported="false"/>
         <activity
             android:name=".activity.maze.MazeActivity"
-            android:screenOrientation="sensorPortrait" />
+            android:screenOrientation="sensorPortrait" android:exported="false"/>
         <activity
             android:name=".activity.colordrawing.MainActivity"
-            android:screenOrientation="sensorPortrait" />
-        <activity android:name=".activity.lineconnector.LineConnector" />
-        <activity android:name=".activity.match.MatchActivtiy" />
-        <activity android:name=".activity.match.LkgMatchActivtiy" />
-        <activity android:name=".activity.match.TamilLkgMatchActivtiy" />
-        <activity android:name=".activity.match.UkgMatchActivtiy" />
-        <activity android:name=".activity.BaseActivityExtends" />
-        <activity android:name=".lessons.LessonsActivity" />
-        <activity android:name=".lessons.TamilNumberChoose" />
+            android:screenOrientation="sensorPortrait" android:exported="false"/>
+        <activity android:name=".activity.lineconnector.LineConnector" android:exported="false"/>
+        <activity android:name=".activity.match.MatchActivtiy" android:exported="false"/>
+        <activity android:name=".activity.match.LkgMatchActivtiy" android:exported="false"/>
+        <activity android:name=".activity.match.TamilLkgMatchActivtiy" android:exported="false"/>
+        <activity android:name=".activity.match.UkgMatchActivtiy" android:exported="false"/>
+        <activity android:name=".activity.BaseActivityExtends" android:exported="false"/>
+        <activity android:name=".lessons.LessonsActivity" android:exported="false"/>
+        <activity android:name=".lessons.TamilNumberChoose" android:exported="false"/>
         <activity
             android:name=".ebook.EBook"
-            android:hardwareAccelerated="false" />
-        <activity android:name=".book_landing.BookLanding" />
-        <activity android:name=".emptystatus.EmptyStatus" />
-        <activity android:name=".emptystatus.EmptyView" />
-        <activity android:name=".profile.Profile" />
-        <activity android:name=".register.Registration" />
-        <activity android:name=".forgetpassword.ForgetPassword" />
-        <activity android:name=".login.Login" />
+            android:hardwareAccelerated="false" android:exported="false"/>
+        <activity android:name=".book_landing.BookLanding" android:exported="false"/>
+        <activity android:name=".emptystatus.EmptyStatus" android:exported="false"/>
+        <activity android:name=".emptystatus.EmptyView" android:exported="false"/>
+        <activity android:name=".profile.Profile" android:exported="false"/>
+        <activity android:name=".register.Registration" android:exported="false"/>
+        <activity android:name=".forgetpassword.ForgetPassword" android:exported="false"/>
+        <activity android:name=".login.Login" android:exported="false"/>
         <activity
             android:name=".splash_screens.JesusIntro"
-            android:theme="@style/LoginTheme" />
-        <activity android:name=".dashboard.Dashboard" />
+            android:theme="@style/LoginTheme" android:exported="false"/>
+        <activity android:name=".dashboard.Dashboard" android:exported="false"/>
 
-        <service android:name=".services.MusicService" />
+        <service android:name=".services.MusicService" android:exported="false"/>
+
+        <receiver android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

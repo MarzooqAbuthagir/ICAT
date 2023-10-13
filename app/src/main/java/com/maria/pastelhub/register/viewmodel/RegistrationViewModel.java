@@ -155,7 +155,8 @@ public class RegistrationViewModel extends ViewModel {
             params.addProperty("mobile", registerUser.getMobile());
             params.addProperty("name", registerUser.getName());
             params.addProperty("email", registerUser.getEmail());
-            params.addProperty("country", registerUser.getCountry());
+//            params.addProperty("country", registerUser.getCountry());
+            params.addProperty("country", Registration.country);
             params.addProperty("state", Registration.state);
             params.addProperty("class", registerUser.getRegClass());
             register(params);

@@ -50,7 +50,7 @@ public class Registration extends AppCompatActivity implements RegisterResultCal
     public static String longitude = "0.0";
     //    private static final int REQUEST_LOCATION = 1;
     public static Context context;
-    public static String state = "";
+    public static String state = "", country = "";
 
     private static final int REQUEST_CODE = 101;
 
@@ -202,12 +202,13 @@ public class Registration extends AppCompatActivity implements RegisterResultCal
                 String address = addresses.get(0).getAddressLine(0); // If any additional address line present than only, check with max available address lines by getMaxAddressLineIndex()
                 String city = addresses.get(0).getLocality();
                 state = addresses.get(0).getAdminArea();
-                String country = addresses.get(0).getCountryName();
+                country = addresses.get(0).getCountryName();
                 String postalCode = addresses.get(0).getPostalCode();
                 String knownName = addresses.get(0).getFeatureName(); // Only if available else return NULL
                 Log.d("Tag", "getAddress:  address" + address);
                 Log.d("=========", "getAddress:  city" + city);
                 Log.d("TAG", "getAddress:  state" + state);
+                Log.d("TAG", "getAddress:  state" + country);
                 Log.d("TAG", "getAddress:  postalCode" + postalCode);
                 Log.d("TAG", "getAddress:  knownName" + knownName);
             }

@@ -93,10 +93,17 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
                             && pref.getPreference("is_subscription").equals("0")) {
                         int amount = 100 * 100;
                         startPayment(amount, "INR");
-                    } else if (!pref.getPreference("country").equalsIgnoreCase("India")
-                            && !pref.getPreference("is_subscription").equals("1")) {
-                        int amount = 5 * 100;
-                        startPayment(amount, "USD");
+                    } else if (!pref.getPreference("country").equalsIgnoreCase("India")) {
+//                            && !pref.getPreference("is_subscription").equals("1")) {
+//                        int amount = 5 * 100;
+//                        startPayment(amount, "USD");
+                        Intent intent = new Intent(context, BookLanding.class);
+                        context.startActivity(intent.putExtra("ID", position)
+                                .putExtra("language", "" + model.bookLanguage)
+                                .putExtra("BookName", model.name)
+                                .putExtra("Rating", model.rating)
+                                .putExtra("class", model.classes)
+                                .putExtra("Image", model.image).putExtra("Teacher", model.teacher).putExtra("Price", model.price));
                     } else {
                         Intent intent = new Intent(context, BookLanding.class);
                         context.startActivity(intent.putExtra("ID", position)
@@ -121,10 +128,17 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
                             && pref.getPreference("is_subscription").equals("0")) {
                         int amount = 100 * 100;
                         startPayment(amount, "INR");
-                    } else if (!pref.getPreference("country").equalsIgnoreCase("India")
-                            && !pref.getPreference("is_subscription").equals("1")) {
-                        int amount = 5 * 100;
-                        startPayment(amount, "USD");
+                    } else if (!pref.getPreference("country").equalsIgnoreCase("India")){
+//                            && !pref.getPreference("is_subscription").equals("1")) {
+//                        int amount = 5 * 100;
+//                        startPayment(amount, "USD");
+                        Intent intent = new Intent(context, BookLanding.class);
+                        context.startActivity(intent.putExtra("ID", position)
+                                .putExtra("language", "" + model.bookLanguage)
+                                .putExtra("BookName", model.name)
+                                .putExtra("Rating", model.rating)
+                                .putExtra("class", model.classes)
+                                .putExtra("Image", model.image).putExtra("Teacher", model.teacher).putExtra("Price", model.price));
                     } else {
                         Intent intent = new Intent(context, BookLanding.class);
                         context.startActivity(intent.putExtra("ID", position)

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.maria.pastelhub"
-    android:versionCode="2"
-    android:versionName="1.1" >
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="31" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -30,9 +30,12 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.maria.pastelhub.lessons.TamilLkgUkgActivity" />
+        <activity
+            android:name="com.maria.pastelhub.lessons.TamilLkgUkgActivity"
+            android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.splash_screens.EnglishAnthemActivity"
             android:exported="false" />
@@ -41,6 +44,7 @@
             android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.splash_screens.MainActivity"
+            android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,65 +60,122 @@
             android:name="com.google.android.gms.wallet.api.enabled"
             android:value="true" />
 
-        <activity android:name="com.maria.pastelhub.star_collecting.activity.StarCollectingActivity" />
-        <activity android:name="com.maria.pastelhub.review.ReviewActivity" />
-        <activity android:name="com.maria.pastelhub.videos.playvideo.PlayVideo" />
-        <activity android:name="com.maria.pastelhub.videos.songs.Songs" />
-        <activity android:name="com.maria.pastelhub.videos.weblinks.WebLinks" />
+        <activity
+            android:name="com.maria.pastelhub.star_collecting.activity.StarCollectingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.review.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.videos.playvideo.PlayVideo"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.videos.songs.Songs"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.videos.weblinks.WebLinks"
+            android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.videos.livevideos.LiveVideo"
+            android:exported="false"
             android:screenOrientation="sensorPortrait" />
-        <activity android:name="com.maria.pastelhub.videos.livevideos.LiveVideo1" />
+        <activity
+            android:name="com.maria.pastelhub.videos.livevideos.LiveVideo1"
+            android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.videos.FullScreenVideoView"
+            android:exported="false"
             android:screenOrientation="landscape" />
-        <activity android:name="com.maria.pastelhub.activity.draganddrop.DragandDrop" />
-        <activity android:name="com.maria.pastelhub.activity.draganddrop.DragandDroplu" />
-        <activity android:name="com.maria.pastelhub.activity.draganddrop.DragandDropluTamil" />
-        <activity android:name="com.maria.pastelhub.activity.wordsearch.WordSearch" />
-        <activity android:name="com.maria.pastelhub.activity.choose.ChooseAnswerActivity" />
-        <activity android:name="com.maria.pastelhub.splash_screens.VideoActivity" />
+        <activity
+            android:name="com.maria.pastelhub.activity.draganddrop.DragandDrop"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.draganddrop.DragandDroplu"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.draganddrop.DragandDropluTamil"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.wordsearch.WordSearch"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.choose.ChooseAnswerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.splash_screens.VideoActivity"
+            android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.activity.maze.MazeActivity"
+            android:exported="false"
             android:screenOrientation="sensorPortrait" />
         <activity
             android:name="com.maria.pastelhub.activity.colordrawing.MainActivity"
+            android:exported="false"
             android:screenOrientation="sensorPortrait" />
-        <activity android:name="com.maria.pastelhub.activity.lineconnector.LineConnector" />
-        <activity android:name="com.maria.pastelhub.activity.match.MatchActivtiy" />
-        <activity android:name="com.maria.pastelhub.activity.match.LkgMatchActivtiy" />
-        <activity android:name="com.maria.pastelhub.activity.match.TamilLkgMatchActivtiy" />
-        <activity android:name="com.maria.pastelhub.activity.match.UkgMatchActivtiy" />
-        <activity android:name="com.maria.pastelhub.activity.BaseActivityExtends" />
-        <activity android:name="com.maria.pastelhub.lessons.LessonsActivity" />
-        <activity android:name="com.maria.pastelhub.lessons.TamilNumberChoose" />
+        <activity
+            android:name="com.maria.pastelhub.activity.lineconnector.LineConnector"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.match.MatchActivtiy"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.match.LkgMatchActivtiy"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.match.TamilLkgMatchActivtiy"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.match.UkgMatchActivtiy"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.activity.BaseActivityExtends"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.lessons.LessonsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.lessons.TamilNumberChoose"
+            android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.ebook.EBook"
+            android:exported="false"
             android:hardwareAccelerated="false" />
-        <activity android:name="com.maria.pastelhub.book_landing.BookLanding" />
-        <activity android:name="com.maria.pastelhub.emptystatus.EmptyStatus" />
-        <activity android:name="com.maria.pastelhub.emptystatus.EmptyView" />
-        <activity android:name="com.maria.pastelhub.profile.Profile" />
-        <activity android:name="com.maria.pastelhub.register.Registration" />
-        <activity android:name="com.maria.pastelhub.forgetpassword.ForgetPassword" />
-        <activity android:name="com.maria.pastelhub.login.Login" />
+        <activity
+            android:name="com.maria.pastelhub.book_landing.BookLanding"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.emptystatus.EmptyStatus"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.emptystatus.EmptyView"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.profile.Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.register.Registration"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.forgetpassword.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name="com.maria.pastelhub.login.Login"
+            android:exported="false" />
         <activity
             android:name="com.maria.pastelhub.splash_screens.JesusIntro"
+            android:exported="false"
             android:theme="@style/LoginTheme" />
-        <activity android:name="com.maria.pastelhub.dashboard.Dashboard" />
-
-        <service android:name="com.maria.pastelhub.services.MusicService" />
-
         <activity
-            android:name="com.karumi.dexter.DexterActivity"
-            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-
-        <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.maria.pastelhub.com.squareup.picasso"
+            android:name="com.maria.pastelhub.dashboard.Dashboard"
             android:exported="false" />
 
-        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+        <service
+            android:name="com.maria.pastelhub.services.MusicService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false" >
             <intent-filter>
                 <action android:name="rzp.device_token.share" />
             </intent-filter>
@@ -123,6 +184,7 @@
         <activity
             android:name="com.razorpay.CheckoutActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
             android:theme="@style/CheckoutTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -132,7 +194,14 @@
                     android:scheme="io.rzp" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.maria.pastelhub.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.maria.pastelhub.lifecycle-process"
